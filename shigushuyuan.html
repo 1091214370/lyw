@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>石鼓书院</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/sd1_1.jpg"><img src="images/sd1_1.jpg"></a></li>
+                <li><a href="images/sd1_2.jpg"><img src="images/sd1_2.jpg" ></a></li>
+                <li><a href="images/sd1_3.jpg"><img src="images/sd1_3.jpg" ></a></li>
+                <li><a href="images/sd1_4.jpg"><img src="images/sd1_4.jpg"></a></li>
+                <li><a href="images/sd1_5.jpg"><img src="images/sd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/sx1_1.jpg"><img src="images/sx1_1.jpg"></a></li>
+                <li><a href="images/sx1_2.jpg"><img src="images/sx1_2.jpg"></a></li>
+                <li><a href="images/sx1_3.jpg"><img src="images/sx1_3.jpg"></a></li>
+                <li><a href="images/sx1_4.jpg"><img src="images/sx1_4.jpg"></a></li>
+                <li><a href="images/sx1_5.jpg"><img src="images/sx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">石鼓书院旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            千年学府――石鼓书院，我国宋代四大书院之一。迄今已有1200多年的历史，是“湖湘文化”的一个重要发源地。国家级“AAA”人文旅游景区。座落于衡阳市城北蒸、湘、耒三水汇集的石鼓山上。地理位置独特，远山而不僻，近市而不嚣。 石鼓山海拔69米，面积为4000平方米。石鼓之名，远不可稽，说法不一。一曰：“石鼓四面凭虚，其形如鼓”。如郦道元《水经注》所载：“山势青圆，正类其鼓，山体纯石无土，故以状得名”。二曰：“石鼓三面环水，水浪击石，其声如鼓”。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：8:00 - 18:00 夏季；（11月-4月）8:00 - 17:30 冬季
+            <br><b>特惠政策:</b>
+            <br>A.免费政策：儿童1.3米以下免票；70岁以上老人持老年证免票。
+            <br>B.优惠政策：学生凭学生证购学生票；60岁以上老人凭老年证购老人票（上述优惠政策，需到景区自行购买）。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>公共交通：</b>
+            <br>乘车路线：
+            <br>162、105、106、116、128、143，可到达石鼓书院站下车。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>云雾茶</b></h4>
+            云雾茶因产于南岳的高山云雾之中而得名，古称岳山茶。游衡山使人精疲力尽，买些云雾茶带回去，沏上一壶，既可以生津解乏，又是极佳的纪念品，当茶叶的淡淡清香在齿颊之间悠悠流转，衡山的秀丽风光似乎又历历在目。
+            <br>
+            <h4><b>衡南鸽来香</b></h4>
+            鸽来香的乳鸽是衡阳当地的传统特产美食，鸽来香产品的味道很好，深受当地人的喜爱。另外，鸽子性味咸、平，有调精益气和治疮解毒的功效。对神经衰弱、健忘、失眠有独到的疗效，可以购买来孝敬长辈。
+            <br>
+            <h4><b>石门草席</b></h4>
+            石门草席抗虫抗病、色泽均匀、织出的草席柔软，而且产量高。衡山县瞄准国际市场，制定了规范化无公害席草生产标准，指导农民种植。
+            <br>
+        </div>
+    </div>
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

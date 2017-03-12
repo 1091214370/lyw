@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>白洋淀</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script  src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+<div class="body">
+<div class="focus" >
+    <div class="focusbox" >
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/byd1_1.jpg"><img src="images/byd1_1.jpg"></a></li>
+                <li><a href="images/byd1_2.jpg"><img src="images/byd1_2.jpg" ></a></li>
+                <li><a href="images/byd1_3.jpg"><img src="images/byd1_3.jpg" ></a></li>
+                <li><a href="images/byd1_4.jpg"><img src="images/byd1_4.jpg"></a></li>
+                <li><a href="images/byd1_5.jpg"><img src="images/byd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool" >
+            <ul class="ftoollist clearfix" ><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/byx1_1.jpg"><img src="images/byx1_1.jpg"></a></li>
+                <li><a href="images/byx1_2.jpg"><img src="images/byx1_2.jpg" ></a></li>
+                <li><a href="images/byx1_3.jpg"><img src="images/byx1_3.jpg"></a></li>
+                <li><a href="images/byx1_4.jpg"><img src="images/byx1_4.jpg"></a></li>
+                <li><a href="images/byx1_5.jpg"><img src="images/byx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script >
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r" >
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">白洋淀旅游指南</h1></div>
+    <div class="info" >
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+
+            白洋淀是华北平原上最大的淡水湖，位于河北省保定市东约45公里安新县境内。素有“华北明珠”、“北地西湖”之誉。景色很漂亮，比所谓景点更好。
+            <br>
+            <br>白洋淀是华北平原上最大的淡水湖，位于河北省保定市东约45公里安新县境内。素有“华北明珠”、“北地西湖”之誉，是小兵张嘎故事的发生地，国家5A级旅游景区。
+            <br>
+            <br>白洋淀是典型的北方湿地，自古以来就以物产丰富著称。它是鸟的王国、鱼的乐园、多种水生植物的博物馆。盛夏时节，每根芦苇从秆到叶都是鲜绿的，绿得闪闪发亮；到了8月，满白洋淀荷花盛开，红白相间，亭亭玉立，层层叠叠的荷花一眼望不到边，如诗如画。 这里有不少名胜古迹，许多帝王曾到此巡游，建有康熙水围行宫、大型游泳场、水上体育乐园、野生动物观赏区景点，并辟几个具有民俗风情的村庄，供游人参观。 游区分六大景区，即鸳鸯岛民俗文化景区、荷花观赏景区、生态游乐景区、休闲娱乐景区、码头观光景区、民俗村观光景区。 白洋淀人民有着光荣的革命传统。在抗日战争时期，白洋淀地区人民成立了著名的水上游击队“雁翎队”，利用河湖港叉开展游击战争，威震敌胆。抗日游击队“雁翎队”在芦苇迷宫和荷花荡中和日本侵略军捉迷藏，经常将侵略军打得焦头烂额，由此也产生了中国文学以孙犁为代表的“荷花淀派”。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：08:30~17:30
+            <br>
+            <br>入淀费：40.00元
+            <br>
+            <br>鸳鸯岛：40.00元
+            <br>
+            <br>荷花大观园：50.00元
+            <br>
+            <br>白洋淀文化苑：50.00元
+            <br>
+            <br>白洋淀休闲岛：40.00元
+            <br>
+            <br>白洋淀异国风情园：40.00元
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+
+
+            白洋淀位于河北保定安新县境内，地处京津腹地，交通便利。 省外游客建议先抵达北京或者石家庄，搭乘班车或自驾前往安新县或雄县，再到达白洋淀。 周边游客前往白洋淀一般选用公路交通，先到安新县或雄县，再到水村郭里口即到达景区。 白洋淀景区内部交通一般以乘船、步行为主。
+            <br>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+            白洋淀的苇席以历史悠久、皮白质柔而闻名，如安州的“州席”、关城的“花边席”、边村垒头的“小边席”都是席中的上品，你不妨带一两张回家，既可留作纪念，又可馈赠亲友。
+            <br>
+            <h4><b>茶纹松花蛋</b></h4>
+            茶纹松花蛋，又名皮蛋，是白洋淀名特产品之一。蛋源为放养鸭子所产之蛋，采用传统工艺加新的科学配方制作。白洋淀茶纹松花蛋主要特点为色泽鲜亮，味道鲜美，茶纹清晰。切开后，松花呈墨绿、黑、浅褐、深褐四圈颜色。可做凉拌、豆腐松花、松花粥等菜肴。
+            <h4><b>莲子</b></h4>
+            白洋淀莲子又有红、白莲子之分。红莲结子后，去掉黑色硬皮，莲子肉为暗红色；白莲结子后，去皮，莲肉为白色。红白莲子营养价值高，含多种维生素，有保健强身作用，便于贮藏与携带。
+            <h4><b>芦苇艺术画</b></h4>
+            芦苇画原料选自白洋淀野生芦苇，经过十几道手工工序，形成了天然、环保、不变形、不褪色的山水风情艺术品，享誉河北。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+
+            <h4><b>最佳旅游时间</b></h4>
+            6月-10月最佳。
+            <br>夏季，7月下旬到8月份荷花盛开，芦苇丛生，淀内香气四溢，是赏荷的最好季节，可尽情体验白洋淀风情。但此时天气炎热，应注意防暑降温；游客较多，费用较高；
+            <br>秋天，芦花纷飞，稻谷飘香，天高气爽，是蟹肥时节，河蟹美味不可错过；
+            <br>春天，芦苇出水，满淀青翠，每逢清晨，红日映透淀底，白洋淀好像披上了绿带霞衣；
+            <br>冬天，地冻冰封，一片碧玉，恰似一幅巨大的明镜镶嵌在冀中的原野上。
+            <h4><b>白洋淀特色</b></h4>
+            白洋淀最有名的就是六大景区：鸳鸯岛民俗文化景区、荷花观赏景区、生态游乐景区、休闲娱乐景区、码头观光景区和民俗村观光景区。每个景区都各具特色，自成一体。建议亲自感受一下，肯定不虚此行。
+            <h4><b>乘船随身必备品</b></h4>
+            服装：上下船频繁，宜穿着运动鞋、休闲服
+            <br>夏季炎热，蚊虫多，建议带防晒外套，一物多用
+            <br>雨伞：挡风遮雨防水花
+            <br>餐饮类：景区相连且区域宽阔，能量补给必不可少
+            <br>晕船药：船行较快且行程较远，对水腥气敏感者注意预防
+            <br>相机：白洋淀风光独好，各有韵致，不拍照实在可惜
+            <h4><b>温馨提示</b></h4>
+            小心拉客陷阱。在白洋淀，正规的码头与旅馆众多，不要因担心无法订到船票而接受拉客邀请。便宜无好货，不要为低价心动。
+            <br>鸭蛋也有假。白洋淀没有大雁蛋，这一点一定要注意。更有甚者，将鸡蛋染色冒充鸭蛋，鸭蛋冒充鹅蛋，一定要提高警惕，到正规摊点购买。
+            <br>白洋淀客房与包船通常容量较大，人数越多，打折力度大，人均消费越划算，建议集体出游。
+            <br>停车到专人看护处较为安全，停车费为小车当天10元、过夜20元。
+            <br>景区内生活设施较少，饮食、衣物、医药、现金请自行多做准备。
+            <br>景区内生长的植物严禁采摘，违者罚款200元。
+
+        </div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

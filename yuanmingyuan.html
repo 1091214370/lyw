@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>圆明园</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/md1_1.jpg"><img src="images/md1_1.jpg"></a></li>
+                <li><a href="images/md1_2.jpg"><img src="images/md1_2.jpg" ></a></li>
+                <li><a href="images/md1_3.jpg"><img src="images/md1_3.jpg" ></a></li>
+                <li><a href="images/md1_4.jpg"><img src="images/md1_4.jpg"></a></li>
+                <li><a href="images/md1_5.jpg"><img src="images/md1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/mx1_1.jpg"><img src="images/mx1_1.jpg"></a></li>
+                <li><a href="images/mx1_2.jpg"><img src="images/mx1_2.jpg"></a></li>
+                <li><a href="images/mx1_3.jpg"><img src="images/mx1_3.jpg"></a></li>
+                <li><a href="images/mx1_4.jpg"><img src="images/mx1_4.jpg"></a></li>
+                <li><a href="images/mx1_5.jpg"><img src="images/mx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">圆明园旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+            圆明园如今只剩下断壁颓垣，它见证了中华民族的屈辱历史。圆明园里面面积很大，但是只剩下一片废墟。就风光而言，夏天去圆明园看荷花很好。
+            <br>
+            <br>圆明园坐落在北京西郊海淀区，与颐和园紧相毗邻。 始建于康熙46年（1709年），亦称“圆明三园”，是圆明园及其附园长春园、万春园的统称，是清朝帝王在150余年间创建和经营的一座大型皇家宫苑。
+            <br>
+            <br> 圆明园继承了中国三千多年的优秀造园传统，既有宫廷建筑的雍容华贵，又有江南水乡园林的委婉多姿，又吸取了欧洲的园林建筑形式，曾以其宏大的地域规模、精美的建筑景群、丰富的文化收藏和民族文化内涵而享誉于世，被誉为“一切造园艺术的典范”和“万园之园”。
+            <br>
+            <br> 圆明园于即1860年的10月，遭到英法联军的洗劫和焚毁。1988年建成圆明园遗址公园，仅存山形水系、园林格局和建筑基址，假山叠石、雕刻残迹仍然可见。 “圆明园”，是由康熙皇帝命名的。玄烨御三字匾额，就悬挂在圆明园殿的门楣上方。“圆明”是雍正皇帝自皇子时期一直使用的佛号，雍正皇帝崇信佛教，号“圆明居士”。康熙皇帝在把园林赐给胤禛（后为雍正皇帝）时，亲题园名为“圆明园”正是取意于雍正的佛号“圆明”。 圆明园的园林造景多以水为主题，因水成趣，其中不少是直接吸取江南著名水景的意趣。圆明园后湖景区，环绕后湖构筑九个小岛，是全国疆域《禹贡》“九洲”之象征。各个岛上建置的小园或风景群，既各有特色，又彼此相借成景。 圆明园西部的万方安和，雍正皇帝喜欢在此居住。圆明园北部的水木明瑟，用泰西（西泽）水法引水入室，转动风扇。乾隆皇帝喜欢在此消暑。 圆明园还有个显著特点，就是大量仿建了全国各地特别是江南的许多名园胜景。乾隆皇帝弘历曾经六次南巡江浙，多次西巡五台，东巡岱岳，巡游热河、盛京（即沈阳）和盘山等地。每至一地，凡他所中意的名山胜水、名园胜景，就让随行画师摹绘成图，回京后在园内仿建。
+            <br>
+            <br>必游景观大水法：大水法：位于远瀛观高台之南，为石龛式，内有一座七级水盘，顶端有一大型狮子头，水盘喷水可以形成七层水帘。蓬岛瑶台遗址：蓬岛瑶台一景，正是仿照唐代著名画家李思训的“一池三山”画意建造的。园盛时，福海端午龙舟竞渡，皇帝率王公大臣在西岸“望瀛洲”亭观阅，皇太后及后妃内眷则在蓬岛瑶台欣赏。 圆明园不仅以园林著称，而且也是一座收藏相当丰富的皇家博物馆。法国大作家雨果曾说：“即使把我国所有圣母院的全部宝物加在一起，也不能同这个规模宏大而富丽堂皇的东方博物馆媲美”。 园内各殿堂内装饰有难以计数的紫檀木家具，陈列有许多国内外稀世文物。园中文源阁是全国四大皇家藏书楼之一。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：1~3月、 11~12 月：07:00~19:30 停止售票时间：17:30
+            <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp4月、9~10月：07:00~20:30 停止售票时间：18:30
+            <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp5~8月：07:00~21:00 停止售票时间：19:00
+            <br>
+            <br>门票：10.00元
+            <br>
+            <br>西洋楼遗址景区（含大水法、展览馆、迷宫）：15.00元
+            <br>
+            <br>圆明园盛时全景模型展：10.00元
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+
+            乘坐319路、320路、331路至【圆明园南门】站下车。
+            <br>
+            <br>乘坐365路、432路、特4路、运通105路、运通205路至【圆明园东路】站下车。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>北京烤鸭</b></h4>
+            北京烤鸭，是北京全聚德烤鸭店的名食，它以色泽红艳，肉质细嫩，味道醇厚，肥而不腻的特色，被誉为“天下美味”而驰名中外。
+            <h4><b>景泰蓝</b></h4>
+            景泰蓝是北京特有的传统工艺品，得名于明朝景泰蓝年间，且以蓝釉为其特点。北京是景泰蓝技术的发源地，现存最早的景泰蓝是元代的产品,已有近千年的历史。制作景泰蓝先要用紫铜制胎，再用扁细的铜丝在铜胎上粘出图案花纹，然后用色彩不同的珐琅釉料镶嵌填充在图案中。这道工序完成后才是反复烧结，磨光镀金。可以说，景泰蓝的制作工艺既运用了青铜工艺，又利用了瓷器工艺，同时又大量引进了传统绘画和雕刻技艺，堪称中国传统工艺的集大成者。
+            <h4><b>北京果脯</b></h4>
+            北京果脯采用宫廷传统秘方，由鲜果加工精制而成，口味酸甜适中，爽口滑润，甜而不腻，果味浓郁，主要有杏脯、梨脯、秋海棠等上千个品种、几百个规格的各类产品，均被农业部认定为绿色食品。
+            <h4><b>茯苓饼</b></h4>
+            茯苓饼，又名茯苓夹饼，是北京的一种滋补性传统名点，且此饼当推稻香村最佳。制作系以茯苓霜和精白面粉做成薄饼，中间夹有用蜂蜜、砂糖熬溶拦匀的蜜饯松果碎仁，其形如满月，薄如纸，白如雪，珍美甘香，风味独特。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+            <h4><b>游玩最佳时间</b></h4>
+            四季皆宜。 圆明园春天草长莺飞，一片暖春景色。每年有踏青节，非常热闹。 夏季树翠水丰，可在皇家园林避暑乘凉。 秋天圆明园中菊花盛开，秋高气爽。 冬天的圆明园雪景更是所有摄影师的梦想景观。
+            <h4><b>导游服务</b></h4>
+            100元起，最高200元，每次限10人，每增加1人增加10元，不超过20人。
+            <br>联系方式：010-62637561/ 62569609
+            <h4><b>《圆明园》纪录片</b></h4>
+            大型纪录片《圆明园》于每天8:30-17:00在圆明园展览馆内循环播放，圆明园展览馆位于长春园西洋楼遗址内，馆内免费参观，有圆明园书籍、图片销售。
+        </div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

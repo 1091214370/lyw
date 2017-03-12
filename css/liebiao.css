@@ -1,0 +1,42 @@
+.box{
+    width: 789px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.list-box{
+    margin: 0 auto;
+    width: 700px;
+    height: 42px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.list{
+    float: right;
+    padding-top: 10px;
+}
+
+.list-box ul li{
+    cursor: pointer;
+    width: 30px;
+    height: 26px;
+    float: left;
+    display: block;
+    background:url("listype-icon.png") no-repeat;
+
+
+
+}
+
+.changelist .list-1-o{
+    height: 240px;
+    width: 240px;
+    border: 1px solid #aaaaaa;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.changelist .list-2-v{
+    height: 170px;
+}

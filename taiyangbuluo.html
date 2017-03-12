@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>太阳部落</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/tyd1_1.jpg"><img src="images/tyd1_1.jpg"></a></li>
+                <li><a href="images/tyd1_2.jpg"><img src="images/tyd1_2.jpg" ></a></li>
+                <li><a href="images/tyd1_3.jpg"><img src="images/tyd1_3.jpg" ></a></li>
+                <li><a href="images/tyd1_4.jpg"><img src="images/tyd1_4.jpg"></a></li>
+                <li><a href="images/tyd1_5.jpg"><img src="images/tld1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/tyx1_1.jpg"><img src="images/tyx1_1.jpg"></a></li>
+                <li><a href="images/tyx1_2.jpg"><img src="images/tyx1_2.jpg"></a></li>
+                <li><a href="images/tyx1_3.jpg"><img src="images/tyx1_3.jpg"></a></li>
+                <li><a href="images/tyx1_4.jpg"><img src="images/tyx1_4.jpg"></a></li>
+                <li><a href="images/tyx1_5.jpg"><img src="images/tyx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">太阳部落旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            太阳部落旅游区位于泰山南麓，徂徕之侧，汶河之滨，是大汶口文化的重要发祥地。总投资36亿元，占地面积3000余亩，其中一期占地1800亩，投资18亿元。太阳部落以大汶口文化为主线，以情景体验的形式，将史前文化和游乐项目有机融合，使远古文明的场景在游客面前真实展现，是中国首家展现史前文明的特大型主题公园。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：8:30-17:00
+            <br>门票价：160元
+            <br><b>特惠政策:</b>
+            <br>①儿童1.2米以下免费。65岁及65以上老人持身份证免费；革命伤残军人，军队离退休干部、残疾人（据需出示相关有效证件）
+            注：免票人士须有持全价成人陪同入园，每名持票成人限带一名免票人士
+            <br><b>.优惠政策：</b>
+            <br>身高1.2以上的全日制学生可购景区优惠票；60—65岁之间老人身份证购景区优惠票。现役军人、全日制大学本科以下学历的学生凭本人有效证件享受门票半价优惠。
+            <br>注：学生证件包括：
+            <br>①学生证(学历教育，带照片，有效期内，有教育主管部门或所在学校公章)；
+            <br>②校卡(学历教育，带照片，有效期内，有所在学校或班级等信息)；
+            <br>③准考证(带照片，仅限当年暑期使用)；
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>公共交通</b>
+            <br><b>区外交通路线： </b>
+            <br>1.济南： 104国道→长城路（104国道）→金光大道→景区
+            <br>京台高速→泰安“满庄”出口→100米右拐进入金光大道→太阳 部落
+            <br>2.济宁、徐州： 104国道→长城路（104国道）→金光大道→景区
+            <br> 京台高速→泰安“满庄”出口→100米右拐进入金光大道→景区
+            <br>3.莱芜、淄博： 莱博高速→泰莱高速→泰安南出口→长城路→泰星大街→天颐路→胜利路→景区
+            <br>莱博高速→泰莱高速→泰安南出口→长城路→金光大道→景区
+            <br>4.北京、天津、河北： 京台高速→泰安满庄出口→100米右拐进入金光大道→景区
+            <br>5.安徽、江苏、上海： 京台高速→泰安“满庄”出口→100米右拐进入金光大道→景区
+            <br>6.河南： 日东高速→京台高速→泰安“满庄”出口→100米右拐进入金光大道→景区
+            <br>7.高铁： 乘坐高铁列车至高铁“泰安站”下车，乘车沿G104南行至满庄天颐湖南麓景区
+            <br>8.普通列车： 乘坐至“泰山站”下车，换乘K26路公交车直达终点站至景区。
+            <br>市内交通路线：市内自驾：泰安市区→龙潭南路→胜利路→景区
+            <br>公交路线：火车站、老汽车站乘K26路公交车直达终点站景区
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>泰山灵芝</b></h4>
+            有治耳聋、利关节、益精气、坚筋骨、疗虚劳的非凡效果，是泰山的珍贵特产。传说，神农尝百草，在泰山发现此药，因称“神药”。史书记载，宋真宗到泰山，“王钦若献芝草三万八千余本”。至今泰安民间视灵芝为珍宝。
+            <br>
+            <h4><b>泰山燕子石</b></h4>
+            又名“蝙蝠石”，学名“三叶虫化石”。它的生成约5亿年，主要产地在泰安大汶口、莱芜等地。其特点：色泽古雅，资质湿润，虫体如燕，纹彩特异，富有天趣。主要工艺品，从明代就开始制造，如文房四宝、奖品、纪念品等各类工艺品，很受国内外各界人士赞崇，并具有很高的观赏价值和收藏价值，是比较高雅、奇特、名贵的珍品和妙品。
+            <br>
+            <h4><b>泰山石</b></h4>
+            产在泰山前泰安市郊区境内，这里泰山花岗岩石储量20余亿立方米，品种很多，有“泰山红”、“泰山绿”、“泰山白”等。其中“泰山红”花岗岩石板材和石雕工艺品已销往日本、美国、新加坡等国家。
+            <br>
+        </div>
+    </div>
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

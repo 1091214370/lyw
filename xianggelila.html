@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>香格里拉</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/xgd1_1.jpg"><img src="images/xgd1_1.jpg"></a></li>
+                <li><a href="images/xgd1_2.jpg"><img src="images/xgd1_2.jpg" ></a></li>
+                <li><a href="images/xgd1_3.jpg"><img src="images/xgd1_3.jpg" ></a></li>
+                <li><a href="images/xgd1_4.jpg"><img src="images/xgd1_4.jpg"></a></li>
+                <li><a href="images/xgd1_5.jpg"><img src="images/xgd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/xgx1_1.jpg"><img src="images/xgx1_1.jpg"></a></li>
+                <li><a href="images/xgx1_2.jpg"><img src="images/xgx1_2.jpg"></a></li>
+                <li><a href="images/xgx1_3.jpg"><img src="images/xgx1_3.jpg"></a></li>
+                <li><a href="images/xgx1_4.jpg"><img src="images/xgx1_4.jpg"></a></li>
+                <li><a href="images/xgx1_5.jpg"><img src="images/xgx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">香格里拉旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            “香格里拉”一词，是1933年美国小说家詹姆斯·希尔顿在小说《失去的地平线》中所描绘的一块永恒和平宁静的土地。而迪庆却惟妙惟肖的拥有着JamesHilton书中描写的一切，更加巧合的是，“香格里拉”一词是迪庆中甸的藏语，为“心中的日月”之意，它是藏民心目中的理想生活环境和至高至尚的境界。迪庆高原就是人们寻找了半个世纪的“香格里拉”。香格里拉素有“高山大花园”、“动植物王国”、“有色金属王国”的美称。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：旺季05:30—21:00（5月—11月）；淡季07:00—19:30（1月—4月、12月）
+            <br><b>.特惠政策:</b>
+           <br>A.免票政策：儿童身高1.2米以下或6周岁（含6周岁）以下免费；70周岁（含70周岁）以上老年人凭有效身份证和老龄证（两证都需携带）免票；残疾人凭残疾证和身份证（两证都需携带）免票；革命伤残军人、军队离休干部、现役军人、士兵凭有效证件免票。
+            <br>B.优惠政策：6周岁（不含6周岁）—18周岁（含18周岁）的未成年人、全日制大学本科及以下学历的学生凭有效的学生证购景区优惠票；60周岁以上（含60周岁）不满70周岁之间老人有效身份证和老年优待证（两证都需携带）购景区优惠票；60周岁及以上的离退休人员凭居民身份证和离退休证（两证都需携带）购景区优惠票。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>公共交通：</b>
+            <br>昆明机场：昆明-香格里拉机场，飞行时间约55分钟，转乘专线车或出租车到香格里拉虎跳峡镇。
+            <br>昆明西部客运站：昆明西部客运站-香格里拉虎跳峡镇。
+            <br>大理客运站：大理客运站-香格里拉虎跳峡镇。
+            <br>丽江客运站：丽江客运站-香格里拉虎跳峡镇，约1小时半。
+            <br>香格里拉客运站：香格里拉客运站-香格里拉虎跳峡镇，约1小时半。
+            <br>香格里拉虎跳峡景区位于国道214旁。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+            <h4><b>冬虫夏草</b></h4>
+            又名冬虫草，虫草，是菌和虫的复合体，是由真菌中的一种子囊菌侵鳞翅目幼虫钻入土中，到第二年夏季，在虫体的前端长出一条“草”来。每到五月初即可在海拔4000米左右的高山灌丛或山坡草地挖掘。虫草味香，富含蛋白质、虫草酸和多种氨基酸。有保肺、益肾、补精髓、化痰、降血压、明目开窍等功效。尤对遗精、阳萎、肺结核、咳嗽、虚喘、盗汗有效。 食用虫草非常方便，在钝鸡或猪脚时将适量虫草洗净放大同吨即可，或将虫草洗净放在太阳下晒干冲成粉，放大碗中一小匙加鸡烫调匀饮用。
+            <br>
+            <h4><b>白雪茶</b></h4>
+            又名地雪茶，产于海拔4000米以上的雪山，清香回甘，微苦，含有多种对人体有益的成份，能够降血脂、减肥、醒脑、清热解暑、生津、润肺、止咳，对高血压、神经衰弱，咽夹炎等有显著疗效。购买盒装雪茶后可经常开水冲泡饮用，亦可与其它茶叶混泡饮用，同时还是馈赠亲友佳品。
+            <br>
+            <h4><b>红雪茶</b></h4>
+            又名金丝茶。分布在海拔4000米以上的落叶松、冷杉干枯树干上。藏医入药已有几百年历史。经现代医学研究表明，红雪茶富含大量人体必须的微量元素等，具有降血脂、胆固醇，清心开窍，补血养心等功效，对高血压、冠心病、肥胖症等有明显作用。纯天然，无毒副作用，是保健及馈赠亲友佳品。
+            <br>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">到云南旅游，了解一些云南旅游注意事项很重要，云南旅游注意事项对云南旅游是必不可少的。 云南是少数民族主要聚居之地，文化风俗与内地不同，旅游时应由导游引领，并尊重当地的文化风俗。
+            <br>
+            <br>云南属立体气候类型，有四季如春的昆明，有四季无冬的西双版纳，有寒冷的香格里拉和常年积雪丽江玉龙雪山，所以全年均适合观光旅游。
+            <br>
+            <br>如果你主要从气候方面考虑安排旅游时间，春天去香格里拉是最佳的季节，夏天去大理、丽江是最好时节，秋天体验腾冲的火山热海大滚锅，冬天到西双版纳，会别有一番韵味。
+            <br>
+            <br>如果你以民族节庆来选择旅游时间，那千万别错过了西双版纳的泼水节、大理的三月街、国际狂欢节-石林彝族火把节等，同时应关注 昆明 每年 4 月 10 日至 5 月 10 举办的中国 昆明 国际旅游节，届时前去观光游览。
+            <br>
+            <br>近年来趁传统节日、公休假期外出旅游非常盛行，但应尽量避开高峰时期，以获得舒适的旅游效果。
+            <br>
+            <br>对了，到云南旅游，你别忘记带太阳眼镜以防紫外线辐射，防晒霜也带上，免得到云南旅游一趟回家家人都认不出了哦。如出现高原反应-高山缺氧症，宜休息或吸氧法治疗。
+            <br>
+            <br>云南旅游注意事项一：
+            <br>
+            <br>1、 云南每天早晚温差较大（5—18摄氏度），到云南旅游应注意着装，预防感冒；昆明、大理、丽江属高原型西南季风气候，气温偏低， 昼夜温差也很大。来云南旅游，最好的季节是春夏季。随身携带品：短袖T恤、外套、防晒品、雨具。 云南每天早晚温差较大（12—15摄氏度），请注意着装，预防感冒；这是云南旅游注意事项比较重要的之一。
+            <br>
+            <br>2、云南地处云贵高原，室外紫外线照射较强，注意防晒，带好防晒用品；、丽江、香格里拉海拔较高，注意休息，以防出现高原反应；、云南旅游注意事项再就是西双版纳地区了，西双版纳地处亚热带，气候比较闷热潮湿，多雨，请注意携带雨具；、丽江云杉坪山下缆车站旁，备有防寒服装及氧气包出租，客人可根据自身的需要租用；在缆车站排队时，则请注意跟紧前面的人员，杜绝被别的旅游团或游客插队，造成自己和全团久等，耽误行程；、在丽江、香格里拉地区自费骑马或骑牦牛拍照时，亦请注意安全，听从主人安排指导，切勿做出惊吓牲口的行为，以免给自己造成伤害；、旅游摄影时，请注意安全，不要到有危险的地区拍摄或攀爬； （丽江古城中的水边、桥边或虎跳峡的悬崖边等地。）、西双版纳地区注意饮食（当地以酸辣口味为主、凉菜居多）；、在选购旅游纪念商品、当地土特产时，请注意货比三家；同时注意不要随意去动摆设的样品，以防意外损坏；、请注意准备一些个人用的常用药品，以备不时之需；、游客请注意妥善保管个人的贵重物品，照顾好随身物件；、在云南旅游时，注意环境保护、尊重当地少数民族的风俗习惯；、云南旅游途中注意事项：在旅游过程中，听从当地导游和全陪的安排，遵守时间，以便顺利完成整个旅游行程。
+            <br>
+            <br>3、云南是一个少数民族聚居的地区，所以尊重地方的民族习惯是我们必须要做到的。因此要求您在云南旅游途中一定要认真听从导游的讲解，不但能够让您了解到和少数民居交流的注意事项，而且对于增长您的知识也是一个很大的乐趣。
+            <br>
+            <br>4、云南特殊的气候适宜于很多品种花卉的生存，所以云南的鲜花、干花绝对是您从来没有见过的便宜，建议您可以多看一饱眼福，但是因为鲜花的保质期限不长所以提醒您不要购买太多的鲜花。
+            <br>
+            <br>5、因云南目前少数民族聚居区（如大理、丽江、版纳、香格里拉等）在旅游购物市场管理不是太规范，所以旅游途中在这些地方一定不要盲目买东西，否则您在旅游途中产生不好的情绪是我们特别不愿意的。</div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

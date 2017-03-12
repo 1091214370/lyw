@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>天籁谷</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/tld1_1.jpg"><img src="images/tld1_1.jpg"></a></li>
+                <li><a href="images/tld1_2.jpg"><img src="images/tld1_2.jpg" ></a></li>
+                <li><a href="images/tld1_3.jpg"><img src="images/tld1_3.jpg" ></a></li>
+                <li><a href="images/tld1_4.jpg"><img src="images/tld1_4.jpg"></a></li>
+                <li><a href="images/tld1_5.jpg"><img src="images/tld1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/tlx1_1.jpg"><img src="images/tlx1_1.jpg"></a></li>
+                <li><a href="images/tlx1_2.jpg"><img src="images/tlx1_2.jpg"></a></li>
+                <li><a href="images/tlx1_3.jpg"><img src="images/tlx1_3.jpg"></a></li>
+                <li><a href="images/tlx1_4.jpg"><img src="images/tlx1_4.jpg"></a></li>
+                <li><a href="images/tlx1_5.jpg"><img src="images/tlx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">海阳天籁谷旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+            天籁谷旅游景区位于海阳市东北方向七公里处，处于黑山谷景观带。规划数公里山谷主景观长廊、两大商业中心、五大主题园区、星级主题酒店群落、二十三项游乐项目，其中包括太空风洞娱乐，室内滑雪场、直升机停机坪、儿童汽车赛事乐园、商业小镇等。 地理位置优越，三面环山，整个山势呈葫芦状，入口狭窄稍行几步便豁然开朗，仿佛亲临陶渊明笔下的世外桃源故又称为“桃源谷”。景区内山奇水秀，松林茂密，集天时、地利、人和于一身。主要由旅游接待区、休闲运动区、佛教文化区、山地观光区、度假生态区组成，拥有三十多处人文景观；其中高九点九米的露天大佛是目前国内最大弥勒佛像。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：8:30—16:30
+            <br>
+            <br>门票：50.00
+            <br>
+            <br>烟台天籁大峡谷【景区门票】：220.00
+            <br>
+            <br>荷花大观园：50.00元
+            <br>
+            <br>白洋淀文化苑：50.00元
+            <br>
+            <br>白洋淀休闲岛：40.00元
+            <br>
+            <br>白洋淀异国风情园：40.00元
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>烟台桑叶茶</b></h4>
+            烟台桑叶茶是山东烟台海阳市的特产。
+            <h4><b>烟台海参</b></h4>
+            烟台最富盛名的高档补品———海参。“烟台海参”如同“烟台苹果”一样，是闻名海内外的地方特色产品。海参是“海产八珍”之首。全世界公认营养价值最高的海参还是鲁参、辽参，其中鲁参尤以烟台海参（刺参）为优。“烟台海参”的海参多肽、氨基酸含量高。我市某海参加工企业曾进口过外国参加工“海参肽”，但因提炼出的海参多肽量少而不得不放弃。作为“海产八珍”之首，“烟台海参”以其不含胆固醇，可以提高人体免疫力而深受北方人喜爱。
+            <h4><b>烟台红葡萄酒</b></h4>
+            烟台是中国最大的葡萄和葡萄酒生产基地，也是中国葡萄酒工业化酿造的发祥地。1892年，张弼士先生在烟台建立张裕葡萄酿酒公司，开启了中国工业化生产葡萄酒的新纪元。长期以来，我市坚持把葡萄酒业作为经济发展的支柱产业来培育。目前，烟台葡萄种植面积达到21万亩，葡萄酒及相关企业150多家，葡萄酒年产量25万吨，占山东省葡萄酒产量的80%，占全国总产量的三分之一，年实现销售收入125亿元，形成了规模化、链条化发展格局，拥有张裕、中粮长城、威龙等一批葡萄酒知名企业和名牌产品。其中，烟台张裕葡萄酒在2008年以8.9亿美元的销售额位列全球葡萄酒企业第7位，2009年实现销售收入73亿元，成为中国乃至亚洲最大的葡萄酒综合性生产经营企业。正是因为烟台及张裕对世界葡萄酒发展所作出的特殊贡献，1987年，烟台被国际葡萄•葡萄酒局命名为“国际葡萄•葡萄酒城”，成为亚洲唯一获此殊荣的城市。1989年中国0在烟台设立了国家葡萄酒质量监督检验中心，2002年，国家质量技术监督总局批准对“烟台葡萄酒”实行原产地保护。
+
+        </div>
+    </div>
+
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

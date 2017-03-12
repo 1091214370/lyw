@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>秦始皇兵马俑</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script  src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script >
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/bd1_1.jpg"><img src="images/bd1_1.jpg"></a></li>
+                <li><a href="images/bd1_2.jpg"><img src="images/bd1_2.jpg" ></a></li>
+                <li><a href="images/bd1_3.jpg"><img src="images/bd1_3.jpg" ></a></li>
+                <li><a href="images/bd1_4.jpg"><img src="images/bd1_4.jpg"></a></li>
+                <li><a href="images/bd1_5.jpg"><img src="images/bd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/bx1_1.jpg"><img src="images/bx1_1.jpg"></a></li>
+                <li><a href="images/bx1_2.jpg"><img src="images/bx1_2.jpg"></a></li>
+                <li><a href="images/bx1_3.jpg"><img src="images/bx1_3.jpg"></a></li>
+                <li><a href="images/bx1_4.jpg"><img src="images/bx1_4.jpg"></a></li>
+                <li><a href="images/bx1_5.jpg"><img src="images/bx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">兵马俑旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+            西安最有名的景点，兵马俑十分精美。实在是很震撼，虽然只开发了一部分，但是场面还是非常漂亮。很多人名曰不去后悔，气势恢宏，不愧为世界一大奇迹，货真价实的历史遗物。
+            <br>
+            <br>秦始皇兵马俑博物馆位于秦始皇帝陵以东1.5公里处，建筑在秦兵马俑坑的原址之上。是世界最大的地下军事博物馆。 秦始皇陵兵马俑坑是秦始皇陵的陪葬坑。据史书记载：秦始皇嬴政从13岁即位时就开始营建陵园。陵园由丞相李斯主持规划设计，大将章邯监工，修筑时间长达38年。工程之浩大、气魄之宏伟，开创历代封建统治者奢侈厚葬之先例。 秦始皇兵马俑陪葬坑坐西向东，三坑呈品字形排列。最早发现的是一号俑坑，呈长方形，四面有斜坡门道，左右两侧又各有一个兵马俑坑，现称二号坑和三号坑。俑坑布局合理，结构奇特，在深5米左右的坑底，每隔3米架起一道东西向的承重墙，兵马俑排列在墙间空档的过洞中。 1974年春，在秦始皇陵坟丘东侧1.5公里处，当地农民打井，无意中挖出一个陶制武士头。后经国家有组织的发掘，终于发现了使全世界都为之震惊的秦始皇陵兵马俑。 秦兵马俑以其巨大的规模，威武的场面，和高超的科学、艺术水平，使观众们惊叹不已。秦始皇兵马俑博物院也成为西安的标志之一。 目前为止发现了三个坑。一号坑，为东西向的长方形坑，长230米，宽62米，四周各有五个门道。坑东西两端有长廊，南北两侧各有一边廊，中间为九条东西向过洞，过洞之间以夯土墙间隔。这个坑以车兵为主体，车、步兵成矩形联合编队。军阵主体面向东，在南、北、西边廊中各有一排武士面向外，担任护翼和后卫；东面三排武士为先锋。九个过洞内排列着战车与步兵的庞大主体军阵，每个过洞内有四列武士，有的穿战袍，有的着铠甲，中间配有战车，每辆战车后有驭手一名，车士两名。 二号坑面积约6000平方米，由车兵、步兵和骑兵组成曲尺形军阵。 三号坑面积520平方米，呈“凸”字形状。出土战车一乘，马俑四件，武士俑68件。坑内陶俑以夹道式排列，它是秦军阵的指挥中心。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：3月16日~11月14日： 8:30~17:30&nbsp&nbsp&nbsp&nbsp&nbsp11月15日~3月15日： 8:30~17:00
+            <br>
+            <br>旺季（3月1日~11月31日）：150.00元
+            <br>
+            <br>淡季（12月1日~2月28日）：120.00元
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+
+            火车站东广场乘游5（306）路、914、915路至终点站【兵马俑】，全程票价7元，车程1-1.5小时。
+            <br>
+            <br>坐5-101路到【下和村】下。
+            <br>临潼区前往，可乘坐101专线，车程15分钟左右。
+            <br>5路东广场最早发车：7:10
+
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>仿秦兵马俑</b></h4>
+            随着秦兵马俑的发掘与展出，秦兵马俑复制品也日渐成为中外游客理想的纪念品和礼品。其品种适宜于艺术馆、博物馆等陈列，也可供家庭陈设、装饰、馈赠亲友。满足了中外游人的购物需求，使秦俑走出陕西，遍迹世界。
+            <h4><b>彩绘泥塑</b></h4>
+            凤翔彩塑是一种民间工艺美术品。它是将粘土和纸浆搅拌成塑泥，先制好模子，翻成胎胚凉干，上白色底粉，随后涂彩，绘画和上光即成。泥塑大都是空心圆塑体，也有浮雕式的挂件，既是儿童喜爱的玩具，也是陕西的旅游纪念品。
+            <h4><b>贾三灌汤包子</b></h4>
+            贾三是西安城的名人。来到西安，你是无论如何该去拜望贾三先生的，该去品味贾三先生透彻人心的清真和美伦美焕的技艺。找到贾三，你就算是找到了真正的小吃。西安的小吃多，“贾三灌汤包子”是名头最大、字号最为响亮的西安小吃之一。
+            <h4><b>西安凉皮</b></h4>
+            简要介绍：凉皮又称“酿皮子”，从唐代冷淘面演变而来。其面皮选料精良，工艺严谨，调味讲究，以“白、薄、光、软、筋、香”而闻名，凉爽可口，宜于夏天食用。如今是关中西府的重要名吃。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+
+            <h4><b>最佳游玩时间</b></h4>
+            四季皆宜
+
+        </div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

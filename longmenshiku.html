@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>龙门石窟</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/ld1_1.jpg"><img src="images/ld1_1.jpg"></a></li>
+                <li><a href="images/ld1_2.jpg"><img src="images/ld1_2.jpg" ></a></li>
+                <li><a href="images/ld1_3.jpg"><img src="images/ld1_3.jpg" ></a></li>
+                <li><a href="images/ld1_4.jpg"><img src="images/ld1_4.jpg"></a></li>
+                <li><a href="images/ld1_5.jpg"><img src="images/ld1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/lx1_1.jpg"><img src="images/lx1_1.jpg"></a></li>
+                <li><a href="images/lx1_2.jpg"><img src="images/lx1_2.jpg"></a></li>
+                <li><a href="images/lx1_3.jpg"><img src="images/lx1_3.jpg"></a></li>
+                <li><a href="images/lx1_4.jpg"><img src="images/lx1_4.jpg"></a></li>
+                <li><a href="images/lx1_5.jpg"><img src="images/lx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">龙门石窟旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            龙门石窟是北魏、唐代皇家贵族发愿造像最集中的地方，是皇家意志和行为的体现，具有浓厚的国家宗教色彩
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            <b>开放时间：</b>2.1-3.31日：售票时间8:00-17:00；闭馆时间18:00； 4.1-10.7日：售票时间8:00-17:30；闭馆时间18:30； 10.8-10.31日：售票时间8:00-17:00；闭馆时间18:00；<br> 11.1-次年1.31日：售票时间8:00-16：00；闭馆时间17:00。 景区清场时间为闭馆后一个小时。
+            <br>门票假：120元
+            <br><b>特惠政策:</b>
+            <br>①儿童身高1.4m(含)以下免票(可直接入园)；
+            <br>②老人60(含)-69(含)周岁持有效身份证购半价票60元；70周岁及以上老人凭本人有效身份证可免费入园；
+            <br>学生（参加全国统一普通高校招生考试被录取的本科生、专科生，在校中、小学生）凭有效学生证；18周岁(含)以下未成年人凭本人有效身份证或户口本购景区半价票60元；
+            <br>④残疾人（凭残疾证；视力、智力残疾者和一级、二级肢体残疾者可免一名陪护人员）、离休人员（凭离休证）、伤残军人（凭军残证）、现役军人（凭军官证、士兵证、军官退休证）、记者（凭国家新闻出版广电总局发放的记者证，港澳台记者持加盖单位行政公章的记者证）在售票窗口领取免票；
+            <br>⑤以上②③④优惠规定只有中国公民（含港、澳、台地区）享有，均仅限本人适用，需到检票口二次验证，如无有效证件，请购全价票参观。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>公共交通：</b>
+            <br>①洛阳市政府步行至市政府西门站，乘坐70路，至开元大道龙门大道口站下，乘坐60路或53路，至龙门石窟站下，步行至龙门石窟
+            <br>②步行至市政府西门站，乘坐29路，至关林市场站下车，乘坐60路或53路，至龙门石窟站下，步行至龙门石窟
+            <br>③隋唐城遗址植物馆步行至宜人路市府东街口站，乘坐60路至龙门石窟站下，步行至龙门石窟
+            <br>④洛阳火车站，步行至洛阳站，乘坐56路，至中州中路定鼎路口（名堂广场）站下，步行至定鼎南路中州中路口站，乘坐53路，至龙门石窟站下车，步行至龙门石窟
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+            洛阳的工艺品和土特产琳琅满目,购物场所比较多且集中，所以非常方便。著名的唐三彩，在洛阳已有百年的历史。洛绣是洛阳传统的工艺品，已有2000多年的历史。还有牡丹、梅花玉、黄河鲤鱼等。
+            <h4><b>梅花玉</b></h4>
+            梅花玉，又称汝玉，唯产于洛阳市汝阳县，因玉石本身五颜六色的梅花图案而得名。梅花玉曾作为贡品奉献皇帝，被汉光武帝封为国宝。梅花玉中含有铁、锌、钠、镁、钾、钙等微量元素，及磁铁、麦饭石等成份。长期使用梅花玉健身球、手镯、餐饮具，有健身去疾之功用，为其它玉石所不及。
+            <h4><b>洛阳牡丹</b></h4>
+            洛阳是著名的牡丹之乡，有许多吟咏赞美牡丹的诗句留传于世，唐代诗人刘禹锡就有“唯有牡丹真国色，花开时节动帝京”的诗句，到了宋代诗人李正封的“国色朝酣酒，天香染夜衣”一句更使牡丹获得了“国色天香”的称号。 洛阳牡丹千姿百态，根据颜色、花形、产地、种植等不同特点，可以分成90多个品种，其中以“姚黄”、“魏紫”最是有名。
+            <h4><b>孟津梨</b></h4>
+            孟津梨是洛阳名产，栽培历史千余年，自古即为贡品。因它味甜汁多，细脆无渣，形圆色红，故又称为“洛阳金桔”。清代时，孟津梨已有夏梨、伏梨、平梨、雪梨、五香梨、秋落白、马蹄黄等7个品种。现在已增至30多个品种。
+        </div>
+    </div>
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

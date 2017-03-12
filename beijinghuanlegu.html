@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>北京欢乐谷</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script  src="js/move-top.js"></script>
+    <script  src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/hld1_1.jpg"><img src="images/hld1_1.jpg"></a></li>
+                <li><a href="images/hld1_2.jpg"><img src="images/hld1_2.jpg" ></a></li>
+                <li><a href="images/hld1_3.jpg"><img src="images/hld1_3.jpg" ></a></li>
+                <li><a href="images/hld1_4.jpg"><img src="images/hld1_4.jpg"></a></li>
+                <li><a href="images/hld1_5.jpg"><img src="images/hld1_5.jpg"></a></li>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/hlx1_1.jpg"><img src="images/hlx1_1.jpg"></a></li>
+                <li><a href="images/hlx1_2.jpg"><img src="images/hlx1_2.jpg"></a></li>
+                <li><a href="images/hlx1_3.jpg"><img src="images/hlx1_3.jpg"></a></li>
+                <li><a href="images/hlx1_4.jpg"><img src="images/hlx1_4.jpg"></a></li>
+                <li><a href="images/hlx1_5.jpg"><img src="images/hlx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">北京欢乐谷旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            北京欢乐谷是国家4A级旅游景区、新北京十六景、北京文化创意产业基地，由华侨城集团创办，是集国际化、现代化的主题公园。位于朝阳区东四环四方桥东南角，占地56万平方米。[1]  其中，公园一期占地约54万平方米，于2006年7月9日盛大开幕。公园二期、三期分别占地5万平方米和40多万平方米。公园分别由峡湾森林、亚特兰蒂斯、失落玛雅、爱琴港、香格里拉、蚂蚁王国和欢乐时光七个主题区（另外还有位于爱琴港的奇幻海洋馆、欢乐世界主题漂流三期项目）组成。
+           <br> 北京欢乐谷设置了120余项体验项目，包括40多项游乐设施、50多处人文生态景观、10多项艺术表演、20多项主题游戏和商业辅助性项目，可以满足不同人群的需要。获得过"中国文化创意产业高成长企业百强""首都旅游紫禁杯先进集体""首都文明旅游景区"等荣誉。
+        </div>
+        </div>
+    <div class="info">
+        <div class="info">
+            <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+            <div class="info-container">
+
+                开放时间：08:25~20:30
+                <br>
+                <br>全价票：230元/人 ★“全价票”对象：身高超过1.5 米的儿童及成人。
+                <br>
+                <br>儿童票：150元/人 ★“儿童票”定义：身高1.2 米（含1.2 米）至1.5 米（含1.5 米）的儿童；　
+                <br>
+                <br>长者票：50元/人 ★“长者票”定义：65 周岁至69 周岁的长者（凭有效身份证验票入园）。
+                <br>
+                <br>夜场票：150元/人 ★ 身高超过1.2 米（含1.2 米）的儿童及成人；
+                <br>
+                <br>免票：★ 身高低于1.2 米的儿童 （每名购票成人限带一名身高低于1.2 米的儿童）；
+                <br>★ 70周岁以上长者（含70周岁）凭有效身份证入园；
+                <br>★持《二代残疾证》的残疾人免票，盲人、智障、生活不能自理的残疾人需家人（需购票）陪同入园。
+            </div>
+        </div>
+</div>
+        <div class="info">
+            <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+            <div class="info-container">
+                <b>地铁</b>
+                <br>乘坐地铁7号线，在欢乐谷景区站下车即到。
+                <br><b>公交</b>
+                <br>从天安门乘52路到劲松桥东站转乘41路抵达厚俸桥南（北京欢乐谷）站下车即到；或乘674、680、687至终点站北京华侨城南站，下车后向北步行数分钟即到。740、840、29、743、753、683、801在弘燕桥、紫南家园、北工大东等站下车步行20分钟即到。
+                <br><b>自驾</b>
+                <br>北京欢乐谷位于北京东四环四方桥东南角，距天安门直线距离10.2公里，至北京市中心商务区（CBD）车行10分钟，至京津塘高速路入口车行5分钟<br>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+            <div class="info-container">
+                <h4><b>北京烤鸭</b></h4>
+                北京烤鸭是北京全聚德烤鸭店的名食，它以色泽红艳，肉质细嫩，味道醇厚，肥而不腻的特色，被誉为“天下美味”而驰名中外。
+                <h4><b>景泰蓝</b></h4>
+                景泰蓝是北京特有的传统工艺品，得名于明朝景泰蓝年间，且以蓝釉为其特点。制作景泰蓝先要用紫铜制胎，再用扁细的铜丝在铜胎上粘出图案花纹，然后用色彩不同的珐琅釉料镶嵌填充。
+                <h4><b>北京果脯</b></h4>
+                北京果脯采用宫廷传统秘方，由鲜果加工精制而成，口味酸甜适中，爽口滑润，甜而不腻，果味浓郁，主要有杏脯、梨脯、秋海棠等上千个品种、几百个规格的各类产品，均被农业部认定为绿色食品。
+                <h4><b>良乡板栗</b></h4>
+                良乡板栗系因板栗的集散地在良乡而得名，又因原产地在房山一带，故也叫房山板栗。其粒大个圆，壳薄易剥，含糖量高且营养丰富，既可生食，也可做成糖炒栗子、五香栗子、栗羊羹、栗粉及做为糕点、佳肴的佐料。现除房山外，怀柔、密云、昌平、平谷等地也生产板栗。
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="get-in-touch" id="foot">
+        <div class="container">
+            <div class="pp">
+                <h3>关于我们</h3>
+                <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+                <p class="phone"><span>Phone</span> :0635--1234567</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="copyright text-center">
+                <p>--B-xyz团队出品--</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+    <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

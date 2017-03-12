@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>乌镇</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/wd1_1.jpg"><img src="images/wd1_1.jpg"></a></li>
+                <li><a href="images/wd1_2.jpg"><img src="images/wd1_2.jpg" ></a></li>
+                <li><a href="images/wd1_3.jpg"><img src="images/wd1_3.jpg" ></a></li>
+                <li><a href="images/wd1_4.jpg"><img src="images/wd1_4.jpg"></a></li>
+                <li><a href="images/wd1_5.jpg"><img src="images/wd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/wx1_1.jpg"><img src="images/wx1_1.jpg"></a></li>
+                <li><a href="images/wx1_2.jpg"><img src="images/wx1_2.jpg"></a></li>
+                <li><a href="images/wx1_3.jpg"><img src="images/wx1_3.jpg"></a></li>
+                <li><a href="images/wx1_4.jpg"><img src="images/wx1_4.jpg"></a></li>
+                <li><a href="images/wx1_5.jpg"><img src="images/wx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">乌镇旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            乌镇具典型江南水乡特征，完整地保存着原有晚清和民国时期水乡古镇的风貌和格局。陈运和诗《乌镇剪影》赞“一个现代文明影响不大的世界 一张古老色彩依然浓重的史页”。以河成街，街桥相连，依河筑屋，水镇一体，组织起水阁、桥梁、石板巷、茅盾故居等独具江南韵味的建筑因素，体现了中国古典民居“以和为美”的人文思想，以其自然环境和人文环境和谐相处的整体美，呈现江南水乡古镇的空间魅力。乌镇最佳旅游时间：乌镇的气候与嘉兴、西塘无多大区别。一年中最美的季节是春天与秋天。一天中最美的时候是清晨与傍晚。避免夏季正午时去乌镇游览，日光直晒无廊棚可遮挡。
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：东栅景区：夏令(5月~9月)   07：00~18:00     冬令(10月~来年4月)  07：00~17:30
+            <br>西栅景区：09:00~22:00
+            <br>门票价：100元
+            <br><b>特惠政策:</b>
+            <br>A.免票政策：
+            <br>①儿童身高在1.2米以下；
+            <br>②离休人员凭国务院、中央军委颁发的老干部离休证；
+            <br>③残疾人凭2010年1月1日正式启用的第二代《中华人民共和国残疾人证》、残疾军人证（中华人民共和国民政部制）；
+            <br>④驾驶员随旅行社团队驾驶员A/A1证，一台车仅限1张驾驶证有效；
+            <br>⑤导游凭国导证（IC卡）、领队证；
+            <br>⑥记者凭中央新闻总署颁发的2009年新版新闻记者证（出示身份证在东栅导游部、西栅咨询台办理免票凭证）；
+            <br>⑦旅行社经理资格证(出示名片或任务单再办理免票凭证,东栅至旅行社接待处办理登记，西栅至综合窗口或咨询台办理登记)。
+            <br><b>.优惠政策：</b>
+            <br>70周岁以上老年人凭老年人优待证（无老人优待证的70周岁以上可凭身份证享受优惠）、现役军人持军官证、在校全日制中小学学生凭学生证（中学生高考后不享受）以上凭本人以上证件享受西栅80元/人，东栅60元/人，东西栅联票105元/人的优惠政策、儿童身高在1.2＜身高≤1.5米之间可享受西栅60元/人，东栅50元/人，东西栅联票105元/人的优惠政策。（以上优惠人群需至景区自行购买）。
+            东栅西栅联票成人票一张，如您为乌镇旅游股份有限公司旗下酒店入住，可在入住当天至景区指定前台购买东西栅住宿联票（入住期间二日内一次有效）
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>公共交通：</b>
+            <br>自驾车：
+            <br>上海
+            <br>（1）从上海浦东机场上高速，走申嘉湖高速（S32→S12），在乌镇出口下，全程105公里左右。
+            <br>（2）从上海出发，走沪杭高速（A8）新命名沪昆高速【G60】（过嘉兴东下一站转）→乍嘉苏高速（苏嘉杭高速）→常台高速）【G15W】苏州方向（到观音桥转）→申嘉湖高速【S12】湖州方向→乌镇出口下。全程140公里左右。
+            <br> 杭州
+            <br>（1）走沪杭高速新命名沪昆高速【G60】往上海方向开，从桐乡的高桥出口下，走迎宾大道，往桐乡方向开，在桐乡绕城公路一个立交桥处有乌镇方向的指示牌，看指示牌转即可。（优先推荐）
+            <br>（2）沪杭高速新命名沪昆高速【G60】到长安或屠甸出口下（或者走320国道）到桐乡，再经桐乡到达乌镇。 80公里左右。
+            <br>（3）杭州湾跨海大桥（沈海高速【G15】）→乍嘉苏高速【S11】（苏嘉杭高速）→申嘉湖高速【S12】乌镇出口下。
+            <br>苏州到乌镇
+            <br>（1）走乍嘉苏高速（常台高速）【G15W】到与申嘉湖高速【S12】的交叉口（观音桥），转上申嘉湖高速【S12】（湖州方向），到乌镇出口下。80公里左右。
+            <br>（2）走乍嘉苏高速（常台高速）【G15W】（也叫苏嘉杭高速）到嘉兴开发区出口（或者一级公路，苏州--吴江--嘉兴--乌镇）到乌镇。 100公里左右。
+            <br>南京
+            <br>（1）走沪宁高速（沪蓉高速【G42】）到苏州，再走苏嘉杭州高速（常台高速【G15W】）杭州方向，过王江泾收费站→申嘉湖高速【S12】湖州方向，乌镇出口下。300公里左右。
+            <br>（2）走杭宁高速（长深高速【G25】）（往杭州方向）→申嘉湖高速【S12】（往嘉兴、上海方向）乌镇出口下。300公里左右。
+            <br>公共交通：
+            <br>上海方向
+            <br>（1）上海汽车南站→桐乡汽车站→乌镇汽车站。
+            <br>（2）在上海虹桥机场下飞机，先坐938路上行(虹桥机场-杨家渡)，后在虹桥路程家桥(上海动物园)换乘上朱线下行(朱家角-上海南站)，到上海汽车南站，南站有直达乌镇的车，也可以从南站坐车到桐乡转车，再到乌镇。
+            <br>（3）浦东机场7线坐到上海（火车）南站，再坐火车到嘉兴，再打车到乌镇；或打车到嘉兴汽车西站，坐车到乌镇。
+            <br>（4）浦东机场打车到上海汽车南站，再坐大巴到乌镇，不过一天只有六班车，时间不一定正好；也可以在上海汽车南站坐车到桐乡，再从桐乡到乌镇，白天桐乡到乌镇的班次很多很方便。
+            <br>（5）上海虹桥高铁到桐乡火车站，再转K282路公交到乌镇汽车站。
+            <br>苏州方向
+            <br>（1）苏州汽车南站至乌镇汽车站（车次比较少）。
+            <br>（2）苏州汽车南站—嘉兴汽车北站—嘉兴汽车站—乌镇（汽车）。
+            <br>（3）苏州坐火车到桐乡高铁站，再转K282路公交到乌镇汽车站。
+            <br>南京方向
+            <br>（1）南京汽车东站有直达乌镇的班车（一天两班）。
+            <br>（2） 南京汽车东站坐到嘉兴，嘉兴汽车客运站到乌镇的班车很多，且五十分钟就可到达乌镇。
+            <br>（3）南京火车站坐车到桐乡高铁站，再转K282路公交到乌镇汽车站。
+            <br>杭州方向
+            <br>（1）萧山机场坐空港巴士到乌镇汽车站。
+            <br>（2）杭州九堡客运中心坐汽车至乌镇汽车站。
+            <br>（3）杭州九堡客运中心坐汽车至桐乡汽车站，然后转坐K231公交车至乌镇汽车站。
+            <br>（4）杭州城站火车站坐车至桐乡高铁站，再转K282路公交到乌镇汽车站。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+            乌镇不仅是旅游胜地，风景优美、古香古色，而且特产也不少，就吃的来说，主要有：白水鱼、三白酒、姑嫂饼、定胜糕、臭豆干、熏豆茶、红烧羊肉、三珍酱鸡、檇李、乌镇青团、手工酱等。
+            <br>
+            <h4><b>白水鱼</b></h4>
+            乌镇是鱼米之乡，白水鱼则是其水域的野生鱼类，生长在无污染的河流中，肉嫩味美，属稀有淡水珍品。白水鱼无论清蒸、红烧，都是难得美味。
+            <br>
+            <h4><b>三白酒</b></h4>
+            三白酒是乌镇的特产之一，此酒醇厚清纯、香甜可口，男女老少皆宜饮用。三白酒在乌镇民间还有一个别名叫“杜搭酒”，民间有谣“猫屎芋艿杜搭酒，客人吃了不肯走”。
+            <br>
+            <h4><b>姑嫂饼</b></h4>
+            姑嫂饼是乌镇的传统糕点，距今已有100多年的历史，民间传说它是因姑嫂二人斗气而成。姑嫂饼形状酷似棋子，但比棋子略大，油而不腻，酥而不散，既香又糯，甜中带咸，别具风味。
+            <br>
+        </div>
+    </div>
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

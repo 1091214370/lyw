@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>驴游网</title>
+    <link href="css/bootstrap.css" rel='stylesheet'/>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' />
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet'/>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+
+<body>
+<div class="about-header-banner">
+    <div class="container" >
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home" ></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">旅游小课堂</a></h1>
+    </div>
+</div>
+
+<div class="news-text">
+    <div class="qq">
+    <h3>各省不可错过的旅游胜地</h3>
+    <h5>点击省份的名称，即可查看各省不能错过的旅游胜地，你去过几个呢？？？<br>请在屏宽大于710px的电脑上使用！</h5>
+        </div>
+</div>
+<script type="text/javascript">
+	function filterArray(arr){
+		var newarr = new Array();
+		for(var i=0; i<arr.length; i++){
+			if($.inArray(arr[i],newarr)==-1){
+				newarr.push(arr[i]);
+			}
+		}
+		return newarr;
+	}
+
+	var dataSource = [
+			{province:'上海',city:'上海',name:'东方明珠    上海市浦东新区世纪大道1号 门票160元'}
+			,
+		    {province:'上海',city:'上海',name:'老城隍庙  黄浦区邑城路1号 门票免费'}
+			,
+            {province:'上海',city:'上海',name:'崇明东平国家森林公园  上海市崇明县北沿公路2188号  门票70元'}
+            ,
+            {province:'上海',city:'上海',name:'南京路  上海市南京路  门票免费'}
+            ,
+            {province:'江苏',city:'苏州',name:'周庄  江苏省苏州市昆山周庄全福路 门票100元 '}
+			,
+            {province:'江苏',city:'无锡',name:'灵山大佛   江苏省无锡市滨湖区马山灵山路 门票210元'}
+            ,
+            {province:'江苏',city:'南京',name:'紫金山天文台  北京西路2号 '}
+            ,
+            {province:'辽宁',city:'沈阳',name:'沈阳故宫   辽宁省沈阳市沈河区沈阳路171号  门票60元'}
+			,
+            {province:'辽宁',city:'大连',name:'金石滩国家旅游度假区   辽宁省大连市大连金石滩国家旅游度假区金石路65号 门票100元'}
+            ,
+            {province:'辽宁',city:'丹东凤城市',name:'丹东凤凰山   辽宁省丹东凤城市凤山区凤山路800号 门票80元'}
+            ,
+			{province:'广东',city:'广州',name:'中山纪念堂    广东省广州市越秀区东风中路259号 '}
+			,
+            {province:'广东',city:'韶关',name:'丹霞山水上丹霞   广东省韶关市仁化县丹霞山阳元码头博士生态园 '}
+            ,
+            {province:'广东',city:'肇庆',name:'肇庆七星岩景区    广东省肇庆市端州区星湖大道 '}
+             ,
+            {province:'浙江',city:'杭州',name:'杭州西湖 浙江省杭州市市中心西湖风景名胜区'}
+             ,
+            {province:'浙江',city:'杭州',name:'千岛湖 浙江省杭州西郊的淳安县境内'}
+            ,
+            {province:'浙江',city:'舟山',name:'普陀山 浙江省舟山市普陀山风景名胜区'}
+             ,
+			{province:'福建',city:'南平',name:'武夷山   福建省南平市武夷山国家旅游度假区'}
+			,
+            {province:'福建',city:'泉州',name:'清源山   福建省泉州市丰泽区清源山上'}
+            ,
+            {province:'福建',city:'福州',name:'青云山  福建省福州市永泰县城10多公里的岭路乡'}
+            ,
+			{province:'山东',city:'曲阜',name:'孔府 孔庙 孔林   曲阜城中心'}
+			,
+			{province:'山东',city:'泰安',name:'泰山   山东省泰安市泰安区红门路'}
+			,
+			{province:'山东',city:'济南',name:'济南天下第一泉风景区   山东省济南市明湖路271号'}
+			,
+			{province:'北京',city:'北京',name:'北京故宫   北京市景山前街4号'}
+			,
+            {province:'北京',city:'北京',name:'颐和园   北京市海淀区新建宫门路19号'}
+            ,
+            {province:'北京',city:'北京',name:'八达岭长城  北京市延庆县军都山关沟古道北口'}
+            ,
+			{province:'新疆',city:'吐鲁番',name:'高昌古城      吐鲁番市东45公里处火焰山南麓木头沟河三角洲'}
+			,
+			{province:'江西',city:'吉安市',name:'井冈山风景名胜区    江西省吉安市井冈山市茨坪镇'}
+			,
+            {province:'江西',city:'九江市',name:'庐山风景名胜区    江西省庐山区九江市南36公里鄱阳湖畔 近九江星子'}
+            ,
+            {province:'江西',city:'南昌市',name:'滕王阁   西省南昌市仿古街58号'}
+            ,
+			{province:'黑龙江',city:'宁安市',name:'镜泊湖   黑龙江省牡丹江市宁安市火山口旅游公路'}
+			,
+            {province:'黑龙江',city:'黑河市',name:'五大连池山口湖   黑龙江省黑河市五大连池市二龙山火车站东20公里'}
+			,
+            {province:'黑龙江',city:'哈尔滨',name:'太阳岛    黑龙江省哈尔滨市松北区太阳岛风景区警备路3号'}
+			,
+            {province:'天津',city:'天津',name:'海河游船    天津市古文化街码头'}
+			,
+            {province:'天津',city:'天津',name:'文庙博物馆    天津市南开区东马路东门里2号'}
+			,
+			{province:'山西',city:'大同市',name:'云冈石窟    山西省大同市城西约16公里的武周山南麓'}
+			,
+            {province:'山西',city:'忻州市',name:'五台山    山西省忻州市五台县台怀镇'}
+			,
+            {province:'山西',city:'晋中市',name:'平遥古城   山西省晋中市平遥县'}
+			,
+			{province:'安徽',city:'黄山市',name:'黄山   安徽省黄山市黄山风景区'}
+			,
+            {province:'安徽',city:'池州市',name:'九华山地藏圣像景区   安徽省池州市九华山风景区'}
+			,
+            {province:'安徽',city:'金寨县',name:'安徽天堂寨   安徽省金寨县天堂寨风景名胜区'}
+			,
+            {province:'广西',city:'桂林市',name:'桂林金钟山旅游度假区      广西省桂林市永福县罗锦镇'}
+			,
+            {province:'广西',city:'桂林市',name:'桂林天坑      桂林市永福县罗锦镇金钟山旅游度假区'}
+			,
+			{province:'四川',city:'乐山市',name:'乐山大佛   四川省乐山市市中区凌云路八仙洞码头停车场'}
+			,
+			{province:'四川',city:'阿坝藏族羌族自治州',name:'九寨沟   四川省阿坝藏族羌族自治州九寨沟县漳扎镇九寨沟风景区'}
+			,
+            {province:'四川',city:'乐山市',name:'峨眉山 四川省乐山市峨眉山市'}
+            ,
+            {province:'河北',city:'承德丰宁满族自治县',name:'坝上草原嘉年华 河北承德丰宁满族自治县大滩镇向北三公里244省道东侧坝上草原'}
+            ,
+            {province:'河北',city:'承德市',name:'塞外蟠龙湖  承德市宽城满族自治县西部'}
+            ,
+            {province:'河北',city:'滦平县',name:'金山岭长城 河北省滦平县境内'}
+            ,
+		 	{province:'云南',city:'丽江市',name:'丽江古城   云南省丽江市丽江古城区'}
+			,
+            {province:'云南',city:'丽江市',name:'玉龙雪山   位于丽江古城15公里'}
+			,
+			{province:'湖北',city:'十堰市',name:'武当山  湖北省十堰市武当山特区金街'}
+			,
+            {province:'湖北',city:'神龙架林区',name:'大九湖  湖北省神龙架林区木鱼镇'}
+			,
+            {province:'湖北',city:'武汉市',name:'黄鹤楼  湖北省武汉市武昌蛇山 '}
+			,
+			{province:'海南',city:'三亚市',name:'亚龙湾热带天堂森林公园   海南省三亚市亚龙湾国家旅游度假区内'}
+			,
+			{province:'海南',city:'三亚',name:'蜈支洲岛   海南省三亚市林旺镇海棠湾蜈支洲岛度假中心'}
+			,
+			{province:'甘肃',city:'定西市 ',name:'天井峡景区   甘肃省定西市渭源县莲峰镇'}
+			,
+			{province:'吉林',city:'吉林省东南部',name:'长白山风景区  吉林省长白山池北区'}
+			,
+			{province:'陕西',city:'西安',name:'秦始皇兵马俑  陕西省西安市临潼区骊山北侧'}
+			,
+            {province:'陕西',city:'西安',name:'华清宫（华清池•骊山） 陕西省西安市临潼区华清路038号'}
+			,
+			{province:'贵州',city:'织金县',name:'织金洞风景名胜区  贵州省织金县官寨乡'}
+			,
+			{province:'内蒙古',city:'通辽市',name:'章古台佛塔   内蒙古自治区通辽市奈曼旗章古台苏木所在地'}
+			,
+			{province:'河南',city:'洛阳市',name:'洛阳白马寺   河南省洛阳市东十二公里处'}
+			,
+            {province:'河南',city:'登封市',name:'嵩山少林寺  河南省登封市嵩山五乳峰下'}
+			,
+            {province:'河南',city:'焦作市',name:'云台山   河南省焦作市修武县修武正北30公里靠近233省道'}
+			,
+			{province:'重庆',city:'酉阳县',name:'龚滩古镇  重庆市酉阳县西部'}
+			,
+			{province:'西藏',city:'拉萨市',name:'布达拉宫   西藏拉萨市北京中路35号'}
+			,
+			{province:'湖南',city:'张家界',name:'张家界天门山国家森林公园   张家界永定区官黎平天门山索道下站'}
+			,
+            {province:'湖南',city:'岳阳市',name:'岳阳楼—君山岛景区   湖南省岳阳市岳阳楼区洞庭北路60号'}
+		    ,
+]
+$(function(){
+	$(".tabbreadcrumb>ul>li>a").bind("click", function () {
+		$(this).parent().parent().find("li").removeClass("current");
+		$(this).parent().addClass("current");
+		$(".catalogue").hide().eq($(this).parent().index()).show();
+	});
+
+	$(".tabbreadcrumb>ul>li").eq(0).find("a").click();
+
+	$('#btn_close').click(function(){
+		zone_close();
+	});
+
+
+
+
+
+	var provinces = $.map(dataSource,function(val){
+		return val.province;
+	});
+
+	provinces = filterArray(provinces);
+
+	$.each(provinces,function(key,val){
+		$('#s1').append('<option value="'+val+'">'+val+'</option>');
+	})
+
+	$('#s1').bind('change',function(){
+		var $v = $(this).val();
+		$('#s2').find('option:gt(0)').remove();
+		if($v==''){
+			zone_close();
+		}
+		else{
+			var result = $.grep(dataSource,function(val,key){
+				if(val.province == $v){
+					return true;
+				}
+				else{
+					return false;
+				}
+			});
+			var citys = $.map(result,function(val){
+				return val.city;
+			});
+			citys = filterArray(citys);
+			$.each(citys,function(key,val){
+				$('#s2').append('<option value="'+val+'">'+val+'</option>');
+			});
+			zone_show($v,'',1);
+		}
+	});
+
+	$('#s2').bind('change',function(){
+		var $v = $(this).val();
+		if($v==''){
+			zone_close();
+		}
+		else{
+			zone_show($('#s1').val(),$v,2);
+		}
+	});
+
+});
+
+function zone_close(){
+		$('#mylist').empty();
+		$('#myzone').hide();
+	}
+
+	function zone_show(p,c,type){
+		$('#mylist').empty();
+		var result = null;
+		if(type == 1){
+			result = $.grep(dataSource,function(val,key){
+				if(val.province == p){
+					return true;
+				}
+				else{
+					return false;
+				}
+			});
+
+		}
+		else{
+			result = $.grep(dataSource,function(val,key){
+				if(val.city == c){
+					return true;
+				}
+				else{
+					return false;
+				}
+			});
+		}
+
+		if(result == null){
+			zone_close();
+		}
+
+		$.each(result,function(key,val){
+			$('#mylist').append('<tr><td class="one">'+val.city+'</td><td>'+val.name+'</td></tr>');
+		});
+
+		$('#mytitle').text(p+' '+c+' 不可错过的景区');
+
+		$('#myzone').show();
+	}
+
+function setProvince(p){
+	var $v = p;
+	if($v!=''){
+		$('#s2').find('option:gt(0)').remove();
+		$('#s1').find('option').removeAttr('selected');
+		$('#s1').find('option[value="'+p+'"]').attr('selected','selected');
+
+		var result = $.grep(dataSource,function(val,key){
+			if(val.province == $v){
+				return true;
+			}
+			else{
+				return false;
+			}
+		});
+
+		$.each(result,function(key,val){
+			$('#s2').append('<option value="'+val.city+'">'+val.city+'</option>');
+		});
+
+		zone_show($v,'',1);
+	}
+}
+
+</script>
+
+<style type="text/css">
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+#mylist td{line-height:21px;}
+#mylist td.one{width:50px;}
+</style>
+<div class="testimonials" >
+		<div style="margin:10px auto;position: relative;">
+			<img id="map" name="map" usemap="#m_map"  src="images/map.jpg" style="max-width:100%" alt="" >
+			<div id="myzone" style="width:393px;position: absolute;left:200px;top:100px;display:none;">
+				<div style="height: 22px; background-image: url('images/bg_top.png'); background-repeat: repeat; background-attachment: scroll; background-position: 0% 50%">
+				<img id="btn_close" style="cursor:pointer;float: right;margin: 11px 15px 0 0;" SRC="images/close.gif" alt="关闭" >
+				</div>
+				<div style="background-image: url('images/bg_middle.png'); background-repeat: repeat; background-attachment: scroll; padding-left: 20px; padding-right: 20px; padding-top: 0; padding-bottom: 0; background-position: 0% 50%">
+					<div id="mytitle" style="margin-bottom:10px;line-height:14px;font-size:14px;font-family:Microsoft YaHei;"></div>
+					<table id="mylist">
+					</table>
+				</div>
+				<div style="height: 15px; background-image: url('images/bg_bottom.png'); background-repeat: repeat; background-attachment: scroll; background-position: 0% 50%">
+				</div>
+			</div>
+		</div>
+</div>
+	</div>
+
+	<map name="m_map" id="m_map">
+		<area shape="rect" coords="552, 79, 601, 104" href="javascript:setProvince('黑龙江')" alt="" />
+		<area shape="rect" coords="542, 125, 579, 149" href="javascript:setProvince('吉林')" alt="" />
+		<area shape="rect" coords="523, 170, 554, 192" href="javascript:setProvince('辽宁')" alt="" />
+		<area shape="rect" coords="460, 181, 485, 197" href="javascript:setProvince('北京')" alt="" />
+		<area shape="rect" coords="472, 202, 499, 215" href="javascript:setProvince('天津')" alt="" />
+		<area shape="rect" coords="449, 221, 473, 233" href="javascript:setProvince('河北')" alt="" />
+		<area shape="rect" coords="113, 152, 162, 183" href="javascript:setProvince('新疆')" alt="" />
+		<area shape="rect" coords="246, 187, 291, 213" href="javascript:setProvince('甘肃')" alt="" />
+		<area shape="rect" coords="362, 178, 410, 207" href="javascript:setProvince('内蒙古')" alt="" />
+		<area shape="rect" coords="377, 276, 413, 298" href="javascript:setProvince('陕西')" alt="" />
+		<area shape="rect" coords="308, 324, 335, 342" href="javascript:setProvince('四川')" alt="" />
+		<area shape="rect" coords="366, 337, 399, 359" href="javascript:setProvince('重庆')" alt="" />
+		<area shape="rect" coords="364, 379, 393, 400" href="javascript:setProvince('贵州')" alt="" />
+		<area shape="rect" coords="295, 403, 321, 420" href="javascript:setProvince('云南')" alt="" />
+		<area shape="rect" coords="404, 479, 428, 493" href="javascript:setProvince('海南')" alt="" />
+		<area shape="rect" coords="392, 419, 420, 440" href="javascript:setProvince('广西')" alt="" />
+		<area shape="rect" coords="444, 421, 471, 435" href="javascript:setProvince('广东')" alt="" />
+		<area shape="rect" coords="418, 368, 448, 388" href="javascript:setProvince('湖南')" alt="" />
+		<area shape="rect" coords="500, 377, 530, 399" href="javascript:setProvince('福建')" alt="" />
+		<area shape="rect" coords="473, 350, 500, 367" href="javascript:setProvince('江西')" alt="" />
+		<area shape="rect" coords="419, 320, 449, 341" href="javascript:setProvince('湖北')" alt="" />
+		<area shape="rect" coords="481, 306, 506, 324" href="javascript:setProvince('安徽')" alt="" />
+		<area shape="rect" coords="523, 329, 550, 345" href="javascript:setProvince('浙江')" alt="" />
+		<area shape="rect" coords="544, 307, 569, 321" href="javascript:setProvince('上海')" alt="" />
+		<area shape="rect" coords="517, 280, 545, 303" href="javascript:setProvince('江苏')" alt="" />
+		<area shape="rect" coords="432, 278, 461, 298" href="javascript:setProvince('河南')" alt="" />
+		<area shape="rect" coords="415, 240, 439, 258" href="javascript:setProvince('山西')" alt="" />
+		<area shape="rect" coords="476, 243, 511, 265" href="javascript:setProvince('山东')" alt="" />
+		<area shape="rect" coords="142, 285, 168, 306" href="javascript:setProvince('西藏')" alt=""/>
+
+    </map>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p >驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+</body>
+</html>

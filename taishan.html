@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>泰山</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/tsd1_1.jpg"><img src="images/tsd1_1.jpg"></a></li>
+                <li><a href="images/tsd1_2.jpg"><img src="images/tsd1_2.jpg" ></a></li>
+                <li><a href="images/tsd1_3.jpg"><img src="images/tsd1_3.jpg" ></a></li>
+                <li><a href="images/tsd1_4.jpg"><img src="images/tsd1_4.jpg"></a></li>
+                <li><a href="images/tsd1_5.jpg"><img src="images/tsd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/tsx1_1.jpg"><img src="images/tsx1_1.jpg"></a></li>
+                <li><a href="images/tsx1_2.jpg"><img src="images/tsx1_2.jpg"></a></li>
+                <li><a href="images/tsx1_3.jpg"><img src="images/tsx1_3.jpg"></a></li>
+                <li><a href="images/tsx1_4.jpg"><img src="images/tsx1_4.jpg"></a></li>
+                <li><a href="images/tsx1_5.jpg"><img src="images/tsx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">泰山旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            泰山是中国五岳之首，古名岱山，又称岱宗，位于山东省中部，济南、长清、肥城、泰安之间。其南麓始于泰安城，北麓止于济南市，方圆426平方公里。矗立在鲁中群山间。
+            <br>位于岱宗坊北，红门路北首，东临中溪，西靠大藏岭。宫因岭南崖有红石如门而名，创建时间无考，明清时重修。庙分东西两院，东为弥勒院，西为红门宫，中由飞云阁相连。东院正殿原祀木雕弥勒佛，1966年毁；东有穿堂式更衣亭，旧时帝王官宦登山至此更衣，今为茶室；南有穿堂式过庭。西院为元君庙。其正殿原祀元君及送生娘娘、眼光奶奶，今置九莲菩萨铜像；西有且止亭，今为泰山风光摄影展室；南为穿堂式茶亭。正殿后是禅房院及东西配房。飞云阁原祀观音大士，今为赏景台。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：08:30~17:30
+            <br>门票费：120元
+            <br><b>.特惠政策:</b>
+            <br>A.免票政策：儿童身高1.2米（不含）以下、70岁（含）以上老年人凭身份证或老年证免景区大门票。
+            <br>B.优惠政策：学生凭学生证（初中高中大学生均凭学生证享受优惠，初中高中生无学生证也可以凭毕业证享受优惠）、老人60（含）-69岁（含）凭老年证或身份证购景区优惠大门票。（上述优惠政策，需游客自行至景区购买）
+            <br>友情提醒：到景区换票时须出示相关证件方可享受优惠政策。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>公共交通：</b>
+            <br>自驾路线：
+            <br>①泰安东-红门：泰安东出口下高速—经过一段泰莱高速—小井转盘—直走沿迎暄大街向西行驶到达温泉路口—沿温泉路北行至岱宗大街路口—再沿岱宗大街西行至红门路口—沿红门路北行即可到达红门停车场。
+            <br>公公共交通： 自驾路线：
+            <br> ①泰安东-红门：泰安东出口下高速—经过一段泰莱高速—小井转盘—直走沿迎暄大街向西行驶到达温泉路口—沿温泉路北行至岱宗大街路口—再沿岱宗大街西行至红门路口—沿红门路北行即可到达红门停车场。
+            <br>②泰安东-天外村：泰安东出口下高速—经过一段泰莱高速—小井转盘—直走沿迎暄大街向西行驶到达温泉路口—沿温泉路北行至岱宗大街路口—再沿岱宗大街西行至红门路口—沿红门路北行即可到达红门停车场。
+            <br>③泰安东-桃花峪：泰安东出口下高速—经过一段泰莱高速—小井转盘—直走沿迎暄大街向西直走—再接至104国道一直西行—你可以看到向北的桃花峪景区指示牌—依指示牌北行即可。
+            <br>④泰安西-天外村：泰安西出口下高速—可沿泰山大街向东直行至迎胜南路—沿迎胜南路北行右转沿迎胜东路东行至龙潭路口—然后北行—沿龙潭路北行至天外村广场。
+            <br>⑤泰安西-红门：泰安西出口下高速—可沿泰山大街向东直行至迎胜南路—沿迎胜南路北行右转沿迎胜东路东行至龙潭路口—然后北行—沿龙潭路北行至天外村广场—到达天外村广场后，沿环山路东行即可到达红门停车场。
+            <br>⑥泰安西-桃花峪：泰安西出口下高速—沿泰山大街东行至大河路立交桥—上大河路北行至104国道—然后沿104国道西行即可看到往北的桃花峪的指示牌—按照指示牌行驶即可。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>泰山灵芝</b></h4>
+            有治耳聋、利关节、益精气、坚筋骨、疗虚劳的非凡效果，是泰山的珍贵特产。传说，神农尝百草，在泰山发现此药，因称“神药”。史书记载，宋真宗到泰山，“王钦若献芝草三万八千余本”。至今泰安民间视灵芝为珍宝。
+            <br>
+            <h4><b>泰山燕子石</b></h4>
+            又名“蝙蝠石”，学名“三叶虫化石”。它的生成约5亿年，主要产地在泰安大汶口、莱芜等地。其特点：色泽古雅，资质湿润，虫体如燕，纹彩特异，富有天趣。主要工艺品，从明代就开始制造，如文房四宝、奖品、纪念品等各类工艺品，很受国内外各界人士赞崇，并具有很高的观赏价值和收藏价值，是比较高雅、奇特、名贵的珍品和妙品。
+            <br>
+            <h4><b>泰山石</b></h4>
+            产在泰山前泰安市郊区境内，这里泰山花岗岩石储量20余亿立方米，品种很多，有“泰山红”、“泰山绿”、“泰山白”等。其中“泰山红”花岗岩石板材和石雕工艺品已销往日本、美国、新加坡等国家。
+            <br>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+
+            <h4><b>最佳旅游时间</b></h4>
+            6月-10月最佳。
+            <br>观日秋季最佳，天高气爽，有时天气好的话还可以看见黄河。春天的泰山满眼青翠，山花烂漫，但时常多雨，山顶气温较低。夏季雨天较多，此刻山上常会遇到云海奇观，若遇上日出云海就更幸运了。
+            <h4><b>小建议</b></h4>
+            1、去泰山前要尽早买好回程的票，泰山虽然出名但毕竟是小城市，有的时候不容易买到坐票。
+            <br>2、泰山旺季门票125元，加上2元的保险，保险价值4万，如果不想买保险的话就在买门票时提前说明。
+            <br>3、泰山上的煎饼很好吃，很有山东美食的特色，黄色的小米面皮，抹点酱，卷根葱，一张大饼就好了。沿路上都有卖的，山底1元1个，山顶2元，加鸡蛋再加1元。
+            <br>4、泰山西瓜香甜可口，青绿色的西瓜皮，一般在20斤左右。爬山时可以用来补充水分和体力，在十八盘上，店家要5元一斤，还到4元一斤，切了半个，吃完后立马体力恢复到90％。
+            <br>5、爬泰山的时候不要求速度，开始慢慢来，保存体力，不然到最后很容易力竭而放弃，来泰山不爬山也就少了不少的乐趣。
+            <br>6、天街里饭店宾馆很多，但是价格比山下贵不少，素菜一般在25-30元以内，荤菜40元左右，面条10元/碗。
+            <br>7、许多游客为了看云海奇观可能会选择在下雨天上泰山，这个时候一定要注意防止路边湿滑，拍照的时候不要往后退。
+            <br>8、泰山环境很好，每200米有一个垃圾桶，每1000米就有公共厕所，非常人性化，自己的零食袋不要随便乱扔哦，爱护环境，人人有责。
+            <br>9、保管好随身物品，特别是钱包和手机，不随便相信陌生人的话，出门在外遇到事情三思而后行。
+            <h4><b>路线指导</b></h4>
+            1、从红门到中天门这段路程可以徒步可以乘坐旅游车，大多数人选择徒步，这也是初级登山者的首选路程。
+            <br>2、从红门到中天门徒步大概在2-3小时之内，游客可根据自己的行程安排。
+            <br>3、泰山真正的风景在中天门之后才开始慢慢显露出来，路也会变得陡峭，前面的路程请多点耐心哦。
+            <br>4、泰山有3个十八盘之说，从开山到龙门处为“慢十八”，再到升仙坊为“不紧不慢又十八”，升仙坊到南天门段位“紧十八”。升仙坊到南天门段路最陡，登山途中注意安全。
+            <br>5、建议必要时买根登山杖，减少腿部压力，下山时很有帮助，否则容易腿软。登山杖在红门处就有的卖，沿途也有很多小摊卖，另外路上有很大的几率捡到前面的游客不小心掉下来的登山杖。
+            <br>6、爬山时建议自备2瓶水和巧克力等补充体力的食品，最好不要带零嘴，既占地方又损失体力，而且山上的食品要贵很多。
+
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

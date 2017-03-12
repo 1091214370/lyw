@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>青岛极地海洋世界</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/jdd1_1.jpg"><img src="images/jdd1_1.jpg"></a></li>
+                <li><a href="images/jdd1_2.jpg"><img src="images/jdd1_2.jpg" ></a></li>
+                <li><a href="images/jdd1_3.jpg"><img src="images/jdd1_3.jpg" ></a></li>
+                <li><a href="images/jdd1_4.jpg"><img src="images/jdd1_4.jpg"></a></li>
+                <li><a href="images/jdd1_5.jpg"><img src="images/jdd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/jdx1_1.jpg"><img src="images/jdx1_1.jpg"></a></li>
+                <li><a href="images/jdx1_2.jpg"><img src="images/jdx1_2.jpg"></a></li>
+                <li><a href="images/jdx1_3.jpg"><img src="images/jdx1_3.jpg"></a></li>
+                <li><a href="images/jdx1_4.jpg"><img src="images/jdx1_4.jpg"></a></li>
+                <li><a href="images/jdx1_5.jpg"><img src="images/jdx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">青岛海洋世界旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+            青岛海底世界位于青岛莱阳路2号，毗邻青岛著名风景区鲁迅公园和第一海水浴场。青岛海底世界主要由潮间带、海底隧道和地下四层观光建筑三大部分构成，展示部分完全在地下。青岛海底世界潮间带的四个海水展池中饲养有多种海星、海胆、章鱼、鲎、海龟、蟹类等无脊椎动物，以及鰕虎鱼、弹涂鱼还有皱唇鲨、黑鳍鲨等小型鲨鱼。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：08:30开始售票
+            <br>通票：150.00元
+            <h4><b>特惠政策</b></h4>
+            <br>A.免票政策：儿童身高1.2米以下免票，须有成年家属陪同。
+            <br>B.优惠政策：身高1.2米—1.5米的儿童半价；60—69周岁的老人凭本人身份证半票；70岁以上的老人凭本人身份证购老年票5元（进入展馆时，需出示证件）；残疾人凭其残疾证、军人凭其军人证半价。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>自驾车</b>
+            <br>自驾车：从济青高速下来后，走青岛市区，308国道，然后从山东路到香港西路，到达第一海水浴场西侧100米
+            <br><b>公交：</b>
+            <br>1、四方长途站—青岛海底世界：坐15路公交车到小西湖下车步行600米到达景区；
+            <br>2、流亭国际飞机场—青岛海底世界：乘坐机场大巴从海天国际大酒店下车后乘坐316路到鲁迅公园下即可；
+            <br>3、市政府—青岛海底世界：乘坐228路231路26路 304路311路321路到鲁迅公园下步行256米到达景区；
+            <br>4、青岛火车站—青岛海底世界：肯得基旁乘坐26路公交车鲁迅公园下即可。
+            <br>5、轮渡—青岛海底世界：
+            <br>①从轮渡出发,乘坐312路(轮渡-仰口),抵达鲁迅公园
+            <br>②从轮渡出发,乘坐311路(轮渡-北九水),抵达鲁迅公园
+            <br>③从轮渡出发,乘坐304路(轮渡-垭口),抵达鲁迅公园
+            <br>④从轮渡出发,乘坐321路(轮渡-高职校),抵达鲁迅公园
+            <br>6、从西镇出发,乘坐223路(天山小区-西镇),抵达鲁迅公园
+            <br>7、团岛—青岛海底世界：
+            <br>①从团岛出发,乘坐25路(市政府-团岛),抵达大学路
+            <br>②从团岛出发,乘坐316路(青岛大学-团岛),抵达鲁迅公园<br>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>“青岛啤酒”风光罐</b></h4>
+            “青岛啤酒”风光罐 – 美景带回家 在青岛啤酒产品中有一个很特别的系列：青岛啤酒旅游风光系列。这系列产品以500ml罐装包装为主，与青岛啤酒普通易拉罐啤酒包装迥然有异，有种让游客眼前一亮的感觉。“风光罐”的独特之处在于把青岛的著名风光景点“搬”到青岛啤酒的包装罐上，其中包括青岛最具知名度的景点“崂山”、“栈桥”、“五四广场”、“木栈道”、“花石楼”、“提督府”、“迎宾馆”、“青啤博物馆”等8个景点图案。这让游客在喝啤酒的同时可以欣赏青岛美景。青岛啤酒“风光罐”是青岛啤酒与青岛市旅游局联合推出的，以享誉世界的“青岛啤酒”为媒介，把青岛的美景“卖”到全世界。也是馈赠亲朋好友的绝好礼品。
+            <h4><b>罗布麻茶</b></h4>
+            罗布麻茶产于鲁东，采用黄河入海口两岸，天然罗布麻嫩叶为原料，秉承古老传统黑茶制作工艺，结合现代科技精制而成。成品后仍持续进行自然陈化，具有越陈茶性越平和、香甜的独特品质。 主要成分有：黄酮类化合物、强心甙、多种氨基酸、槲皮素以及钾、钙、铁、锌等多种微量元素。具有平肝安神，对高血压、高血脂、头晕、心悸、失眠有很好的缓解作用。 长期饮用对人体的脑血管、呼吸、消化、泌尿系统功能有一定的调节作用。 另外罗布麻茶有功效累计作用，即饮用罗布麻茶时间越长效果越好。此茶不含茶碱，不会因饮茶而失眠。
+            <h4><b>海滨小金</b></h4>
+            当您来到美丽的海滨城市——山东省的青岛市，当您漫步在蔚蓝色的大海边，徜徉在繁华的青岛商业集聚区，您一定会听说一个名字 “海滨小金”。她就是源自一个有着近90年商业历史文化积淀，传统经营之道与现代消费理念融汇贯通，其产品质优价实、放心健康，品牌价值享誉全国的“中华老字号”企业——青岛海滨食品有限公司，她是一块将传统精湛生产加工工艺与先进技术、设备有机合成，品真质优、安全健康，代表了青岛地方特色海参等干海产品的一块“金字招牌”。 “海滨小金”牌产品，是传承了“老字号”企业精湛加工工艺与配方，采用天然、无公害水域养殖、采购的原材料，根据当今市场消费需求自主研发，在获得QS食品质量安全认证、ISO9001：2000国际质量管理体系认证基础上，严格执行国家及行业标准，运用先进生产加工技术和现代化设备，生产加工出海参、干海产品等为代表的共8大系列，近1000余个品种规格的产品。曾先后获得过：国家合格评定质量达标放心食品；青岛市十大旅游特色商品；青岛市消费者放心满意产品；最具消费价值海参品牌；山东中老年人最喜爱的滋补养生品牌等众多荣誉称号。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+
+            <h4><b>最佳旅游时间</b></h4>
+            展馆，全年皆宜。
+            <h4><b>注意事项</b></h4>
+            1、观看海豚、白鲸等表演。海豚表演是半点一场的，如果到了半点可以先去看表演，到了场地里不要打伞，不要站在座位上大声喧哗，海豚也是比较喜欢安静的。
+            <br>2、带好长袖衣服。虽然现在天气炎热，但是极地海洋世界确实异常凉爽，很多动物的生活环境在-10，因此如果带着小孩去，最好带件长袖衣服，以免受凉，里面的水饮料都很贵的，自己带进去比较好。
+            <br>3、把握好游览极地的时间为了节省游玩的时间，尽量玩的尽兴，因此要掌握好游玩极地海洋世界的时间，一般控制在两个半小时比较好，进去之后，可以根据游览导向标进行观光游览，是不走回头路的。观看海底动物时，不要拍打玻璃，否则会吓到动物的。
+            <br>4、游玩时注意自身财物。由于6--11月是青岛旅游旺季，极地海洋世界里也是人头攒动，因此要看好自己的包裹、手机、相机、钱包等，以免被盗。
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

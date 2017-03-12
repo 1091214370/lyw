@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dd,dt,img,form{padding:0px;margin:0px;border:0;font-size:12px;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:100;}
+select{padding:0px;margin:0px;overflow:scroll;}
+td,tr,td{font-size:12px;}
+ul,ol li{list-style:none;}
+input{padding:0px;margin:0px;}
+.clear{clear:both;font-size:0px;height:0px;overflow:hidden;}
+a:link, a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:focus{outline:none;}
+a{text-decoration:none;blr:expression(this.onFocus=this.blur());}
+a{outline:none;}
+body{font-family:Microsoft YaHei,"宋体";background-color:#f1f1f1;}
+
+/* shortcut */
+.shortcut{width:1000px;height:570px;margin:40px auto ;position:relative;z-index:101;}
+.shortcut a{margin-right:20px;display:block;width:230px;height:270px;position:relative;overflow:hidden;float:left;transition:all 0.3s linear;-webkit-transition:all 0.3s linear;top:0px;}
+.shortcut a img{position:absolute;left:0px;top:0px;margin-top: 10px;}
+.shortcut a span{font-weight:bold; position:absolute;line-height:18px;font-family:arial;color:#f7f7f7;left:15px;bottom:32px;transition:all 1s;-webkit-transition:all 1s;}
+.shortcut a .imgH{left:-230px;transition:all 0.2s ease;-webkit-transition:all 0.2s ease;}
+.shortcut a:hover{text-decoration:none;}
+.shortcut a:hover .imgH{display:block;left:0px;}
+.shortcut a:hover span{animation:img4 0.8s linear infinite alternate;-webkit-animation:img4 1s linear infinite alternate;}
+@keyframes img4{0%{bottom:32px;} 100%{bottom:25px;}}
+@-webkit-keyframes img4{0%{bottom:32px;} 100%{bottom:25px;}}

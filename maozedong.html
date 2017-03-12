@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>毛泽东遗物馆</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/mzd1_1.jpg"><img src="images/mzd1_1.jpg"></a></li>
+                <li><a href="images/mzd1_2.jpg"><img src="images/mzd1_2.jpg" ></a></li>
+                <li><a href="images/mzd1_3.jpg"><img src="images/mzd1_3.jpg" ></a></li>
+                <li><a href="images/mzd1_4.jpg"><img src="images/mzd1_4.jpg"></a></li>
+                <li><a href="images/mzd1_5.jpg"><img src="images/mzd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/mzx1_1.jpg"><img src="images/mzx1_1.jpg"></a></li>
+                <li><a href="images/mzx1_2.jpg"><img src="images/mzx1_2.jpg"></a></li>
+                <li><a href="images/mzx1_3.jpg"><img src="images/mzx1_3.jpg"></a></li>
+                <li><a href="images/mzx1_4.jpg"><img src="images/mzx1_4.jpg"></a></li>
+                <li><a href="images/mzx1_5.jpg"><img src="images/mzx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">毛泽东遗物馆旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+            毛泽东遗物馆总建筑面积1.9万平方米，其中陈列布展等面积8400平方米，库房4400平方米，工作用房6200平方米。总投资约1.9亿元。于2006年8月12日破土动工，2008年12月20日竣工。00 陈列布展，分为基本陈列、专题陈列和临时陈列三个部分。1-3展厅为基本陈列《风范长存——毛泽东遗物展》共展出毛主席遗物1008件，第4、5展厅为专题陈列《毛泽东主席用瓷展》与《毛泽东珍藏唱片磁带展》，第6展厅为临时展厅。0 文物库房，采用恒温、恒湿手段，收藏和保护毛主席遗物6536件，文物资料35696件。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：9:00-16:00
+            <br>展馆，铭记伟人。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+
+            <h4><b>中巴车</b></h4>
+            乘坐环线中巴在毛泽东故居站下车，每天8:00—15:25，从长沙汽车南站及汽车西站有多趟直接发往韶山的大巴。
+            <br>乘大巴到达韶山后，从韶山汽车站或火车站有前往韶山冲毛泽东故居和滴水洞的往返中巴线，运营时间6:00—19:30，环线全程约10分钟。
+            <h4><b>公路</b></h4>
+            <b>高速：</b>
+            <br>①从长沙出发：由长潭西线转潭邵路
+            <br>②从广东方向出发：由京珠线转潭邵线
+            <br>③从江西方向出发：走沪昆线
+            <br><b>国道或省道：</b>
+            <br>从长沙出发走320国道至湘潭转208省道
+            <br><b>铁路：</b>
+            <br>①从长沙火车站坐5365次列车至韶山站。
+            <br>②乘火车到湘潭后到砂子岭汽车西站乘车。
+            <br><b>航空：</b>
+            <br>位于省会长沙的黄花机场，距韶山92公里（经上瑞和京珠高速），只需70分钟便可到达。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>湘莲</b></h4>
+            湘潭有“中国湘莲之乡”的美称，是历代皇室贡品，“寸三莲”驰名中外是莲中珍品。湘潭湘莲产量占全国的63.4%，且质量均为上乘，年成交额1.2亿元左右。全县目前有4000多人从事着莲子的种植、加工、贩运。莲子的系列产品及深加工也在不断的发展。1992年中国国立商检局对湘莲测定认为，净莲肉含十八种人体不可缺少的微量元素、性平、味甘，具有降血压、健脾胃、安神固精、润肺、清心之效，莲芯性味苦寒，有强心镇静、清热平火、除烦利尿之功能。湘莲被誉为中国南方“人参”。
+            <h4><b>油纸伞</b></h4>
+            手工制作的油纸伞——旅游工艺伞，是湘潭县石鼓镇的地方名产，宋元时代已经生产。清代300多年间，生产更是鼎盛，整个青山桥、石鼓、分水，方圆百里都生产纸伞，种类有自制的小花伞、大棚伞、油布伞等，仿制的有菲菲伞等。河道总督陈鹏年亦作推介，当时年产雨伞竟达120万把。到了晚清时代，曾国藩湘军集团为了增加军饷，大力发展工商业，在长江沿岸的汉口、安庆、南京、上海等城市，都设立了雨伞销售商店，并将它远销东南亚、新加坡、英、法、美等国。此伞亦常请名家题以字画，成为重要的收藏品。上世纪80年代，以金属材料为骨架的布伞，还有小巧精美、携带方便的折叠伞，逐渐占领雨伞市场。进入新世纪后，改革开放的春风吹入石鼓小镇，这里的制伞工艺好似那古树逢春，重焕蓬勃生机。
+            <h4><b>毛家红烧肉</b></h4>
+            毛家菜因毛主席故乡而闻名，毛家红烧肉主席赞不绝口。正宗的毛家饭店位于湘潭韶山冲，这里的红烧肉选的是五花腩，把五层三花的肚腩肉用冰糖八角桂皮先蒸再炸后入锅放豆豉作料，做法非常讲究和复杂。做好的毛家红烧肉色泽金黄油亮，肥而不腻，十分的香润可口。
+            <br>毛主席钟情红烧肉世人共知，故红烧肉又名毛氏红烧肉，是主席宴上的八大名菜之一，也是湘菜系列独树一帜的主打产品，流传至今，一直深受世人喜爱。在当时的年代乃至七十年代有红烧肉吃是上等菜，主席认为，红烧肉可以大量补充能量，恢复体力，使人精力充沛。据历史记载，毛主席在指挥三大战役时，对警卫员李银桥说：“你只要隔三天给我吃一顿红烧肉，我就有精力打败敌人。”可见，主席对红烧肉的钟爱。
+            <br>红烧肉是采用半瘦半肥的猪肉，切成匀称的切状，再用上等酱油加少量的糖烧制而成，色泽呈金黄，味道糖而不腻。冬笋炒腊肉，是以腊肉为主原料，配以营养丰富的嫩冬笋佳制而成，如果再加些白辣椒、大蒜茎叶、豆豉便配制成了一份很有特色的菜肴，作为佐酒佳膳。
+            <h4><b>湘潭灯芯糕</b></h4>
+            灯芯糕为条状食品，洁白，光润，以形似灯芯而得名。据说灯芯糕在当时并不著名，仅受到当地人们的喜爱。1915年，灯芯糕参加了巴拿马国际博览会，各国使者和商人看到这种外形为条状的食品，洁白、柔润、光滑，具有纯净的玉桂香味，拿到手上可以弯成圈而不断，最奇怪的是用火柴点燃后，整根能燃尽，因而惊叹起来。于是，名副其实的“灯芯”糕便名扬四海了。
+            <br>灯芯糕是湘潭的传统副食特产。它不仅形似灯芯，洁白柔润，味道甜辣，清凉芳香，弯转成圈而不断，而且可以用火点燃，散发纯净的玉桂香味。而且打开一盒从第一根开始接连不断到最后一根，不多不少整整24个小时。
+
+        </div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

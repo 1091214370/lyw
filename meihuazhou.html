@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>梅花洲</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/mhd1_1.jpg"><img src="images/mhd1_1.jpg"></a></li>
+                <li><a href="images/mhd1_2.jpg"><img src="images/mhd1_2.jpg" ></a></li>
+                <li><a href="images/mhd1_3.jpg"><img src="images/mhd1_3.jpg" ></a></li>
+                <li><a href="images/mhd1_4.jpg"><img src="images/mhd1_4.jpg"></a></li>
+                <li><a href="images/mhd1_5.jpg"><img src="images/mhd1_5.jpg"></a></li>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/mhx1_1.jpg"><img src="images/mhx1_1.jpg"></a></li>
+                <li><a href="images/mhx1_2.jpg"><img src="images/mhx1_2.jpg"></a></li>
+                <li><a href="images/mhx1_3.jpg"><img src="images/mhx1_3.jpg"></a></li>
+                <li><a href="images/mhx1_4.jpg"><img src="images/mhx1_4.jpg"></a></li>
+                <li><a href="images/mhx1_5.jpg"><img src="images/mhx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8"></div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">梅花洲旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            梅花洲，一个承载着灿烂文明的千年历史遗迹，因大小河道曲折潆洄、纵横交错，将地势惟妙地分成五瓣 ，状若梅花，故有“梅花洲”之名。梅花洲内，始建于南朝的石佛古刹钟声袅袅、余音不绝；千年银杏遗世独立；香花廊桥流芳遗 梦；粉墙黛瓦澜景亭亭，写尽了江南这一方盈水间千年不绝的韵味，再现了三百年的中国情怀。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：8：00---17：00 。
+            <br>门票价：60元
+            <br><b>免费政策：</b>
+            <br>①儿童身高1.2米以下免票 ②老人票70岁以上持老年证免票
+            <br><b>优惠政策：</b>
+            <br>儿童身高1.2≤or＜1.5米之间半价
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <h4><b>自驾路线</b></h4>
+            1、嘉兴市区：市区纺工路或南湖大道行至长秦路（嘉兴南站），向东直行至三岔路口右转进入南北湖大道，向南直行穿过环岛后在第一个十字路口左转进入余云线，直行约4公里即到。
+            <br>2、上海方向：沪杭高速杭州方向至嘉兴枢纽互通，转乍嘉苏高速宁波方向余新出口，出余新收费站第一个
+            路口右转，直行约4公里即到。
+            <br>3、杭州方向：沪杭高速上海方向至嘉兴枢纽互通，转乍嘉苏高速宁波方向余新出口，出余新收费站第一个
+            红绿灯左转直行，前行第一个路口右转，直行约4公里即到。
+            <br>4.江苏方向：苏嘉杭高速入口至吴江方向直行至余新出口，出余新收费站第一个路口右转，直行约4公里即到。
+            <h4><b>公共交通</b></h4>
+            1、沪、杭高铁25分钟直达嘉兴南站，乘坐221路，15分钟即到梅花洲景区石佛寺站
+            <br>2、嘉兴火车站：乘坐211路，40分钟即到梅花洲景区石佛寺站
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+           <h4><b>本草乌茶</b></h4>
+            本草乌茶是经过对传统古方十余年的挖掘恢复后，精心研制的由乌梅、桂花、桑葚、茅根、杭白菊、竹叶、神仙草、乌龙、龙井茶、红花、枸杞等制作而成的保健饮品。
+            <h4><b>篦梳</b></h4>
+            乌镇竹、木、羊角、牛角等物产丰富，经选料、开模、整型、刨光等一套工艺，形状各异、功能不同的篦梳便在匠人手中成形，贵在天然，兼有保健功效。
+            <h4><b>布鞋</b></h4>
+            在中国人原生态的生活中，布鞋是不可或缺的。乌镇布鞋手工精湛，用料实在，买上一双舒适、通气的千层底布鞋，慢悠悠地穿越江南水乡。
+            <h4><b>乌酒</b></h4>
+            乌镇“乌酒”以本地特产糯米为主要原料，以民间酿制技艺用于选米、浸泡、蒸饭、摊冷、发酵、压榨、陈酿、冷冻、过滤、灌装等多道民间传统工序。该酒具有乌紫晶莹、芳香馥郁、醇真甘爽、营养丰韵之特点，是宴请、礼送、烹饪的最佳酒品。
+        </div>
+    </div>
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

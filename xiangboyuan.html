@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>青岛香博园</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/xbd1_1.jpg"><img src="images/xbd1_1.jpg"></a></li>
+                <li><a href="images/xbd1_2.jpg"><img src="images/xbd1_2.jpg" ></a></li>
+                <li><a href="images/xbd1_3.jpg"><img src="images/xbd1_3.jpg" ></a></li>
+                <li><a href="images/xbd1_4.jpg"><img src="images/xbd1_4.jpg"></a></li>
+                <li><a href="images/xbd1_5.jpg"><img src="images/xbd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/xbx1_1.jpg"><img src="images/xbx1_1.jpg"></a></li>
+                <li><a href="images/xbx1_2.jpg"><img src="images/xbx1_2.jpg"></a></li>
+                <li><a href="images/xbx1_3.jpg"><img src="images/xbx1_3.jpg"></a></li>
+                <li><a href="images/xbx1_4.jpg"><img src="images/xbx1_4.jpg"></a></li>
+                <li><a href="images/xbx1_5.jpg"><img src="images/xbx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">青岛香博园旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+            目前正在积极创建国家级AAAA级景区和国家级科普基地。以世界香草文化博览为主题，世界著名玫瑰、薰衣草为主要特色。香博园从世界各地引进近百种经典香草植物，是目前国内品种最多，综合开发利用最专业的园区。集观光旅游、科普科研、养生休闲、香草餐饮、纯天然芳香产品研发为一体，园区三面环山，一面临水，山青水秀，环境优美。南北建筑精髓于一体，布局规整，形体俊美，色彩豪放，完美再现了盛唐的时代精神和审美情趣。它既是中西文化交流的体现，更是东方文明和西方文明和谐交融与发展的见证。世界香草文化科普、天然芳香产品研发体验、香草养生美食品尝...。让游客身临芳香世界、置身科普知识海洋，体验真正天然芳香养生理念。香的世界、花的海洋，中国（青岛）香博园诚邀您开启中国“普罗旺斯”之旅，是您生态休闲游、亲子科普游、浪漫婚庆游的美地佳境。
+            <br>
+            <br>中国（青岛）香博园以世界香草文化博览为主题，世界著名玫瑰、薰衣草为主要特色。
+            <br>
+            <br>集观光旅游、科普科研、养生休闲、香草餐饮、纯天然芳香产品研发为一体，园区三面环山，一面临水，山青水秀，环境优美。
+            <br>
+            <br>酒庄建筑汇聚中国古典园林的精华，集南北建筑精髓于一体，布局规整，形体俊美，色彩豪放，完美再现了盛唐的时代精神和审美情趣。它既是中西文化交流的体现，更是东方文明和西方文明和谐交融与发展的见证。
+            <br>
+            <br>项目总体规划1000亩，一期建成开放近300亩，是国内首家香草文化博览园，自2013年对外营业以来，深受广大游客和社会各界的好评，已荣获山东省级、青岛市级科普示范基地。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：9:00-17:30
+            <br>
+            <br>门票：48.00元
+            <br>
+            <h4><b>特惠政策</b></h4>
+            <br>A.免票政策：儿童身高1.2米以下免票；70周岁以上老年人凭有效证件免票。
+            <br>
+            <br>B.优惠政策：儿童身高1.2-1.4米、60-70周岁之间老人（凭老年证或身份证）购景区优惠票（上述优惠政策，需到景区自行购买）。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+
+            <h4><b>青岛自驾游</b></h4>
+            青岛自驾：导航可搜索“青岛香博园”，沿滨海大道至黄岛区朝阳山路（原北京路）最北段，沿指示牌前行，沿5分钟即可到达。
+            <h4><b>公交</b></h4>
+            灵山卫公交枢纽站下车→转乘305路公交车→朝阳山路站（原北京路站）下车→乘出租车，10分钟之内即可到达； 或黄岛区双珠公园乘坐45路到东大洼站下车，步行即可到达。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>泊里西施舌</b></h4>
+            有一种名叫“西施舌”的菜式，是一种叫“沙蛤”的海产壳类做成的。这种非蚬非蚌的贝壳类，呈厚实的三角扇形，小小巧巧的，外壳是淡黄褐色的，顶端有点紫，打开外壳，就有一小截白肉吐出来。因那贝壳被打开时，吐出的白肉象是一条小舌头，不免令人联想多多，故名“西施舌”。
+            <h4><b>胶南绿茶</b></h4>
+            胶南绿茶成功注册国家地理标志证明商标，这意味着胶南绿茶也有了自己的身份证，并且将扩大种植面积，不久的将来，会有更多的人品尝到胶南绿茶的茶香。 以“青岛海青绿洲茶叶精品园”、“青岛铁涧山茶叶精品园”、“青岛铁山茶叶精品园”、“青岛张家楼上疃茶叶精品园”、“青岛九龙潭生态茶园”等为主体的六大茶叶现代园区建设，在发展壮大中起到了产业聚集的效果。全市有机茶园认证(含转换期)面积达到2155亩；拥有茶厂142家；名优茶加工机械约2000台(套)，年生产能力约达3000吨；先后筹建胶南市茶叶产业协会、绿茶开发研究会、青岛碧雪春茶业合作社等茶叶行业组织16家。在各种茶叶评比活动中，胶南绿茶屡获大奖，逐步步入全国名茶行列。
+            <h4><b>大村黑木耳</b></h4>
+            胶南大村镇以“青岛食用菌之乡”闻名，2011年，“大村黑木耳”通过了国家地理标志认证。大村黑木耳精品示范园就位于大村镇河北村，占地600亩，一期建设200余亩，总投资额700余万元，目前已投资100余万元。项目集育种、制棒 、林地生产于一体，采取“公司+农户”的生产模式。农户可从公司购买发酵好的菌棒，直接在自家地里生产，解决了农民关于技术问题的后顾之忧，丰收之后，示范园还负责回收木耳成品，帮助农民打开销路。
+            <h4><b>灵山岛海参</b></h4>
+            灵山岛海参为何会获得国家“地标”保护？记者了解到，这与灵山岛的自然环境和海参品质有关。据了解，灵山岛位于青岛胶南市东南黄海海域中，是青岛市最大的海岛，是我国北方第一高岛。岛的周围海域宽阔，水质十分洁净，是青岛市乃至山东省难得的水质清洁的水域。同时，海岛光照充分，年平均无霜期在250天以上，特别适合海参、鲍鱼等珍贵海洋生物的生长、繁衍。
+            <br>
+            <br>灵山岛海珍品种质资源保护区远离陆地，岛上无大型工业污染源，海域附近周围没有渔港、大型港口码头等较大污染源，海水水质常年可达到一级海水水质标准，是刺参理想的增养殖和繁育基地。
+            <br>
+            <br>灵山岛海参属仿刺参，是黄海南部种群的核心群体。据了解，灵山岛海参成品的生长过程与野生海参相差无几。挑选出优质参种后，经繁殖、孵化，成幼苗后投放藻类饵料培育暂养。当海参长到体重1克左右，进行底播增殖培育，纯自然生长、自然放养，完全食用海底自然饵料。灵山岛海参平均体长25.3厘米，体形肥满，肉质厚实、弹性强，口感润滑筋道，比大棚养殖和养殖池养殖海参的品质更好。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+
+            <h4><b>花期预告</b></h4>
+            阳春三月，大地复苏，香博园内的花草仙子们经过冬的沉眠，在春风沐浴下，绽放奇特魅力，跟随我们一起浏览这座都市大花园的精彩吧。
+            <br>
+            4月中旬，远眺香博园，德国洋甘菊白色花海浪波随风起伏，娇羞的大马士革玫瑰缀满枝头与嫩绿的叶子相互映衬，蝴蝶翩翩起舞、蜜蜂精灵忙碌于花层间，让您陶醉于眼前美景。今年春季景观新增：油菜花、矢车菊...，为您呈现精彩的视觉盛宴。
+
+        </div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

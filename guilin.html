@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>桂林山水</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script  src="js/move-top.js"></script>
+    <script  src="js/easing.js"></script>
+    <script >
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/gld1_1.jpg"><img src="images/gld1_1.jpg"></a></li>
+                <li><a href="images/gld1_2.jpg"><img src="images/gld1_2.jpg" ></a></li>
+                <li><a href="images/gld1_3.jpg"><img src="images/gld1_3.jpg" ></a></li>
+                <li><a href="images/gld1_4.jpg"><img src="images/gld1_4.jpg"></a></li>
+                <li><a href="images/gld1_5.jpg"><img src="images/gld1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/glx1_1.jpg"><img src="images/glx1_1.jpg"></a></li>
+                <li><a href="images/glx1_2.jpg"><img src="images/glx1_2.jpg"></a></li>
+                <li><a href="images/glx1_3.jpg"><img src="images/glx1_3.jpg"></a></li>
+                <li><a href="images/glx1_4.jpg"><img src="images/glx1_4.jpg"></a></li>
+                <li><a href="images/glx1_5.jpg"><img src="images/glx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">桂林旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+
+            桂林是个旅游的好地方，风景绝对独特。漓江两岸风光秀丽，空气十分清新，泛舟漓江看十里画廊非常惬意，喀斯特地貌风光也很不错。自然风光之外桂林还有很多美食，推荐桂林米粉。
+            <br>
+            <br>桂林是世界著名的风景游览城市和历史文化名城。地处湘桂走廊南端，东经109°36′至111°29′、北纬24°15′至26°23′，平均海拔150米，北、东北面与湖南省交界，西、西南面与柳州地区相连，南、东南面与梧州市、贺州市相连，毗邻广东省。 桂林是广西的名城和交通、文化中心，中国历史文化名城，全国重点旅游城市。桂林市地处南岭山系的西南部，平均海拔150米，属典型的“喀斯特”岩溶地貌，遍布全市的石灰岩经亿万年的风化浸蚀，形成了千峰环立、一水抱城、洞奇石美的独特景观，被世人美誉为“桂林山水甲天下”。其中最具有代表性的景点有：象鼻山、伏波山、南溪山、尧山、独秀峰、七星岩、芦笛岩、甑皮岩、冠岩、明代王城、榕湖、杉湖等。而我们所说的漓江山水最精彩的一段则在阳朔境内，桂林其他县区也有数不胜数的美景等着我们前去浏览，龙脊梯田、兴安灵渠、资江漂流、五排河漂流、八角寨、宝鼎瀑布等都会为你带来更多的惊喜。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：一年四季
+            <br>自然景观，免费游览。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <h4><b>航空</b></h4>
+            桂林两江国际机场至桂林市区30公里，有50多条航线可以到达国内、国外很多地方，到香港、澳门及日本福冈、韩国济州、新加坡、泰国、马来西亚等地的也有航班。机场有巴士到市区，终点是民航大厦，只要有航班到桂林就有机场巴士到市区，不管多晚，费用20元。民航大厦每隔30分钟就有一班巴士从市区开到机场，最好提前2小时从桂林出发到机场，以免误机。如果坐出租车到机场大约在80元左右。
+            <h4><b>铁路</b></h4>
+            京广线，黔桂、枝柳、湘桂铁路都经过桂林，一般坐火车可以直达国内主要城市。整个桂林境内有大小27个火车站。桂林市内有两个火车客运站：桂林北站和桂林南站（桂林站）。南站位于东西向的大马路——上海路和南北向的大马路——中山南路交界处，规模比较大，可容纳1.5万人候车，是主要的客运站，在市中心，交通非常方便；北站在桂林郊区，交通不是很方便。
+            <br>注意：桂林是中间站，一般在窗口很难买到卧铺车票，如果需要预定返程车票一般要提前5天和接待中心联系（电话：0773－5890299），黄金周要提前10天。
+            <h4><b>公路</b></h4>
+            桂林有三个汽车站：汽车总站、城南汽车站和北门汽车站。所有的市外班车和绝大部分的郊区班车都从汽车总站发出，总站在市区中山南路427号，从火车站往北走（火车站出来左转）大概10分钟就到，乘观光100、空调99、2、3、10、11路公交车可到达，这里有到广西省及广东、湖南各地的长途汽车。去阳朔的中巴在火车南站，票价10元，最晚21：30，如果赶不上晚班车也可以去汽车总站乘坐往广东方向的长途班车。
+            <h4><b>水运</b></h4>
+            桂林的水运主要是通过湘江和漓江，沿着漓江经过梧州可至珠江，也可直达各沿岸港口，如香港、广州、澳门等。
+            <h4><b>公交</b></h4>
+            免费公交车（发车时间：9：00－17：00）
+            <br>51路--从公交东环车场发车经花鸟市场、北极广场、凤北路、中心广场至桂林站
+            <br>52路--从东环车场发车经三里店广场、龙隐路、至七星公园
+            <br>53路--从公交总公司发车经环城西路至北极广场
+            <br>54路--从桂林南站发车经上海路、安新小区、穿山公园、三里店广场至高新区
+            <br>55路--从平山发车经南环路、净瓶山大桥至车管所
+            <br>56路--从平山发车经南溪公园、上海立交桥、香江饭店、将军路、八中路口至平山
+            <br>57路--从西凤路发车经教育学院、少年宫、西门桥、南门桥、象山公园、解放桥、十字街、艺术馆至西凤路
+            <br>58路--从南溪山公园发车经象山公园、七星公园、民俗风情园、伏波山公园、叠彩山公园、虞山公园至芦笛公园 （发车时间：8：30-16：30）
+            <br>市内交通比较方便，可乘公共汽车，桂林市内的公交车都比较漂亮，票价1元。空调车为99路，从桂林的北端开往南端，票价为2元。
+            <h4><b>出租车</b></h4>
+            桂林市内的出租汽车比较多，大部分是捷达、桑塔纳，还有少数富康车。出租车收费分为白天和晚上两个时段标准，白天（6：30－23：00）2公里起步7元，超过2公里不足4公里1.6元/公里，超过4公里2元/公里；晚上（23：00－次日6：30）起步费7.80元，2～4公里之间为1.80元/公里，4公里以上2.40元/公里
+            <h4><b>自行车</b></h4>
+            在桂林市内租自行车游览，不失为一个好主意，租借点主要在各大宾馆内以及附近主要干道上，收费有计时的，也有计日的。如在桂林国际青年旅馆内，就有自行车出租，每天15元。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>辣椒酱</b></h4>
+            桂林辣椒酱以独特的风味冠压群芳，不仅走俏国内，而且畅销港澳及东南亚，与桂林三花酒、桂林腐乳一起被誉为“桂林三宝”。桂林辣椒酱因配料有别而品种有异。以大蒜头为配料的是蒜蓉辣椒酱。再加入豆鼓就成为豆鼓辣椒酱，通常是选用优质红辣椒、大蒜头等剁碎，拌入豆豉，加入三花酒和细盐等，密封入坛，数月之后始成。桂林辣椒酱油润鲜辣，香醇可口，既可食用提味，还可作调味用。“桂林三宝”商标的“桂林三宝”礼品盒，集桂林三花酒、桂林豆腐乳、桂林辣椒酱三种名优产品为一体，小巧别致，便于携带，深受中外游客的喜爱。
+            <h4><b>南糖</b></h4>
+            始产于清代乾隆年桂林酥糖、桂花寸金糖、桂花芝麻片、花生酥、花生糖的总称。间，是桂林著名特产之一，也是桂林人春节必备的传统年货和款待宾客的佳品。以芝麻仁、花生仁、白糖为主要原料，具有香、甜、松、酥、脆的独特风味。桂林酥糖是南糖中的珍品。吸收前代“城内酥”、“城外酥”两大派系的制作技艺，将精心配制的粉状原料压成长方形小块，四小块为一包。入口酥松易化，细腻滋润，老少皆宜。桂花寸金糖有南糖一枝花的美称。呈柱状，比小指略细,寸许长，中空酥心，外布芝麻仁，色泽似金。桂花芝麻片外形方正，薄如蝉翼； 花生糖和花生酥各具特色，令人食之不忘。桂林南糖自1985年以来，连获广西优质食品奖、国家轻工部优质产品奖。1989年参加国家科委主办的莫斯科“中国科技日”展览获好评，1990年获全国轻工博览会铜奖。主要生产厂家为桂林糖果厂。
+            <h4><b>牛心柿</b></h4>
+            阳朔牛心柿 又名柿花。花于4月中旬开放。果实心状球形，橙黄色，10月上旬至11月成熟时变为红色，通常无子或有少数种子。产于桂林阳朔、临桂、荔浦、平乐、恭城等县，苍梧、容县、平南、玉林等地亦有。阳朔为主产地，阳朔与恭城两崐县鲜柿年产量达4000多吨。主要优点是： 果型中等，单果重170克～196克； 外形美观，光滑、多粉； 果肉橙红，质脆味甜，肉厚汁多，含糖量达18%。适于生食，也适于制柿饼，出饼率20%～30%; 产量较高，单株产果150千克～250千克，丰产株达1200千克。柿饼有润肺止咳、生津、润肠之效，蒸食可治咽喉痛、咳嗽咽干。
+            <h4><b>桂林三花酒</b></h4>
+            米香型小曲白酒。酿造历史可追溯到南宋。原由“师司公厨”酿成，后传入民间，清未出现专业酿酒作坊，至民国年间,作坊遍及桂林。1949年后，国家汇集民间酒坊各路优秀酿酒师，于1952年建立桂林酿酒厂（后改名桂林饮料厂，1987年改为桂林酿酒总厂），沿用传统工艺，继续酿造“三花酒”。因蒸熬三次，摇动可泛起无数泡花，质佳者，酒花细，起数层，俗称“三熬堆花酒”，简称“三花酒”。无色透明，蜜香清雅，入口柔绵，落口爽洌，回甜，饮后留香。适量饮用，可提神，活血，有益健康。品种有57°、38°、30°等系列。1963年～1989年，在全国第二、三、四、五届评酒会上，均被评为国家优质酒，获银质奖章。1964年被评为广西名酒，销全国各省、市、自治区，以及香港、澳门、日本、东南亚等国和地区。花桥牌桂林辣椒酱桂林酱料厂生产，有300余年的生产历史，与豆腐乳、三花酒同被称为“桂林三宝”。主要原料为鲜红辣椒、豆豉和大蒜等。选料十分讲究，生产工艺独特。所用豆鼓由工厂特制，红辣椒由专用基地提供。将鲜椒摘把、清洗、绞碎后，严格按配方与其它原料搅拌、封缸，经过一定时间存放后分装销售。具有色泽红褐、粗细均匀、鲜辣醇香、咸淡适口的特点。能健脾开胃助消化，为宴席或家庭调味佳品。自1979年获桂林市工业产品优质奖以来,连年获广西和国家轻工部优质产品奖。销往全国各地，出口港澳及东南亚地区，深得国内外消费者钟爱。
+            <h4><b>桂花酒</b></h4>
+            桂花酒酿造历史悠久，现有桂林牌和吴刚牌两种。桂林牌桂花酒由桂林酿酒总厂生产，属花、果配制甜型低酒度露酒。以本地桂花、山葡萄为原料，经浸泡、蒸馏、调整、陈酿、过滤而成，酒度15°～20°。色泽浅黄，桂花清香突出，并带有山葡萄的特有醇香，酸甜适口，醇厚柔和，余香长久。常饮可健脾胃，助消化，活血益气。1984年和1989年分别被评为广西优质酒和优质食品。吴刚牌桂花酒由桂林市临桂桂花酒厂生产，以优质大米和鲜桂花为原料，采用双蒸复酿工艺精制而成。酒质清澈透亮，口感醇和爽净，既有三花酒的特色，又有桂花的芳香，回味悠长，酒度有38°和50°两种。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+            <h4><b>最佳游玩时间</b></h4>
+            4-10月。
+            <br>桂林的纬度比较低。属于中亚热带湿润季风气候。总体上来说，桂林的气候温和，四季分明，气候条件十分优越。年平均气温为19.3℃，有“三冬少雪，四季常花”之说。
+            <br>到桂林旅游，最佳季节是在每年4-10月份，在这个期间会有“五一”和“十一”两个黄金周，也是旅游的高峰期，气候适宜的桂林会有很多的游客，房间的预订和交通也进入高潮，价格比平时有所上涨，所以最好避开这个时间，选择一个淡季出游，细细体味这天下美景。
+
+        </div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

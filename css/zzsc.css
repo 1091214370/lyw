@@ -1,0 +1,35 @@
+
+a{color:#bf966a;text-decoration:none;}
+ol,ul {list-style:none;}
+img{display:block;}
+
+.focus{width:700px; height:536px;float:left;margin-top: 10px;margin-left:100px; }
+.focusbox{background-color:#1C1C1C; position:relative;}
+.focusimg{border:5px solid #2F2F2F; width:695px; height:376px; position:relative; overflow:hidden;-webkit-perspective: 1300px;}
+.fimglist{width:99300px; position:relative;-moz-perspective: 1300px;}
+.fimglist img{display:block; width:990px; height:376px; cursor:pointer;}
+.fimglist li{width:990px; height:376px; float:left;-webkit-transform-origin:50% 100%;transform-origin:50% 100%;}
+.fimglist li.onpre{-webkit-animation:onpre .5s ease-in-out;animation:onpre .5s ease-in-out;opacity:0;-webkit-transform:scale(0.8,0.8);transform:scale(0.8,0.8);}
+@-webkit-keyframes onpre{
+	0%{opacity:1;-webkit-transform:rotateY(0deg);}
+	100%{opacity:0;-webkit-transform:rotateY(90deg)}
+}
+@keyframes onpre{
+	0%{opacity:1;transform:rotateY(0deg);}
+	100%{opacity:0;transform:rotateY(90deg)}
+}
+.focustool{width:700px; overflow:hidden; padding:5px 0 10px; margin:0 auto; position:relative;}
+.ftoollist{width:4655px; position:relative;}
+.ftoollist img{display:block; width:129px; height:69px; margin-bottom:3px;}
+.ftoollist a{background-color:#1C1C1C; display:block; width:129px; padding:4px 0 4px 4px; position:relative;-webkit-transition:all .3s linear;transition:all .3s linear;}
+.ftoollist li{float:left; cursor:pointer; -webkit-transition:all .3s linear; transition:all .3s linear;}
+.ftoollist .imgname{line-height:25px; text-align:center; color:#FFF; font-family:\5FAE\8F6F\96C5\9ED1; font-weight:400; font-size:18px; height:25px; overflow:hidden; cursor:pointer;}
+.ftoollist .imgshortcat{line-height:20px; text-align:center; color:#7D7D7D; font-size:12px; height:20px; overflow:hidden; cursor:pointer;}
+.ftoollist a:hover{background-color:#503769; padding:4px; margin-right:-4px; z-index:100; top:-5px;}
+.ftoollist a:hover .imgname{color:#DBC98C;}
+.ftoollist a:hover .imgshortcat{color:#FFF;}
+.ftoollist .on a{background-color:#503769; padding:4px; margin-right:-4px; z-index:100; top:-5px;}
+.ftoollist .on .imgname{color:#DBC98C;}
+.ftoollist .on .imgshortcat{color:#FFF;}
+.body{width: 100%;}
+.body-r{width:250px;height:500px;margin:0;padding:0;margin-left: 60px;float:left;margin-top: 10px;}

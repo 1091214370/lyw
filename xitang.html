@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>西塘</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/xtd1_1.jpg"><img src="images/xtd1_1.jpg"></a></li>
+                <li><a href="images/xtd1_2.jpg"><img src="images/xtd1_2.jpg" ></a></li>
+                <li><a href="images/xtd1_3.jpg"><img src="images/xtd1_3.jpg" ></a></li>
+                <li><a href="images/xtd1_4.jpg"><img src="images/xtd1_4.jpg"></a></li>
+                <li><a href="images/xtd1_5.jpg"><img src="images/xtd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/xtx1_1.jpg"><img src="images/xtx1_1.jpg"></a></li>
+                <li><a href="images/xtx1_2.jpg"><img src="images/xtx1_2.jpg"></a></li>
+                <li><a href="images/xtx1_3.jpg"><img src="images/xtx1_3.jpg"></a></li>
+                <li><a href="images/xtx1_4.jpg"><img src="images/xtx1_4.jpg"></a></li>
+                <li><a href="images/xtx1_5.jpg"><img src="images/xtx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">西塘古镇旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+            江南六大古镇之一。西塘古镇位于江浙沪三省交界处的浙江省嘉善县，古名斜塘，平川，距嘉善市区10公里。西塘全镇总面积83.61平方公里，其中古镇区面积1.04平方公里，人口近8.6万。西塘——生活着的千年古镇。已被列入世界历史文化遗产预备名单，中国首批历史文化名镇，国家AAAA级景区。
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：冬季（11月1日—2月28日）：8:00-16:30  夏季（3月1日—10月31日）：8:00-17:00
+            <br>门票价：100元
+            <br><b>.特惠政策:</b>
+            <br>A.免费政策：a、身高≤1.2米儿童、b、70周岁以上老人（凭有效身份证件） c、导游证、经理资格证、离休证、残疾证、记者证、军官证凭相关证件
+            <br>B.优惠政策：a、1.2米＜身高≤1.5米儿童可享门票挂牌价5折b、60—70周岁以上老人（凭有效身份证件）可享门票挂牌价五折c、大中小全日制在校学生凭有效学生证可享门票挂牌价五折
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+            <b>公共交通：</b>
+            <br>自驾车：
+            <br>（1）沪杭高速嘉善大云出口下→沿善江公路按西塘路标行驶→下高速后开车约十五分钟可到达西塘古镇。（总车程约一个半小时）
+            <br>（2）沪杭高速嘉善大云出口下→沿善江公路按西塘路标行驶→下高速后开车约十五分钟可到达西塘古镇。（总车程约一小时四十五分）
+            <br>（3）320国道行驶→嘉善车城路口左拐→往平黎公路方向约行驶十五分钟即可到达。
+            <br>（4）苏嘉杭高速平望出口下→318国道往上海方向→过黎里后右转至平黎公路往嘉善方向，按西塘路标约行驶二十分钟左右即可到达。（总车程约一小时）
+            <br>公共交通：
+            <br>（1）上海市民可于徐汇区上海体育馆5号大门侧候车大厅候车，每周6，7上午9：00准时放车。
+            <br>（2）坐大巴到嘉善汽车站，嘉善汽车站每5分钟发一辆车到西塘。
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>芡实糕</b></h4>
+            芡实糕是去西塘旅游必买的特产之一，它是一种用芡实、白糖、糯米加上水果辅料制成的糕点，有桂花、玉米、花粉蜂蜜等口味，香甜软糯，口感很好，包装在长条形的透明塑料盒中，送人也比较好看。西塘芡实糕做得比较有名的有两家，一家是“森林”作坊，一家是“一线天”作坊，后者价格更贵点。
+            <br>
+            <h4><b>嘉善黄酒</b></h4>
+            喝黄酒是西塘人的传统，嘉善黄酒的酒性比较温和，酒香醇厚，分花雕、善酿、黄酒等品种，携带运输比较麻烦。
+            <br>
+            <h4><b>“六月红”河蟹</b></h4>
+            “六月红”是农历六月产自西塘的一种河蟹，个头如鸡蛋般大小，放在清水中一蒸就变成红色，故名。该河蟹壳薄肉嫩，味道鲜美，每年有很多旅游者专程来西塘品尝，流传甚远。
+            <br>
+        </div>
+    </div>
+
+
+</div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p > 驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

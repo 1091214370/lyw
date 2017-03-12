@@ -1,0 +1,270 @@
+.place-summary {
+  font-family: "Microsoft YaHei", "tahoma", "arial", "\5b8b\4f53";
+  width: 100%;
+  margin: 0px auto;
+}
+.place-summary .summary-left {
+    margin-left: 100px;
+  max-width: 100%;
+  float: left;
+  _display: inline;
+}
+.place-summary .summary-right {
+  width: 290px;
+  float: right;
+  _display: inline;
+}
+.place-summary pre {
+  white-space: normal;
+}
+.place-summary .guide-wrapper {
+  font-family: "Microsoft YaHei", simsun;
+  padding-right: 100px;
+  padding-top: 9px;
+}
+.place-summary .guide-wrapper .header {
+  text-align: center;
+}
+.place-summary .guide-wrapper .header .big-title {
+  margin: 0;
+  padding: 0;
+  font-size: 37px;
+  font-weight: lighter;
+}
+.place-summary .guide-wrapper .info-header {
+  border-bottom: solid 1px #d1d1d1;
+}
+.place-summary .guide-wrapper .info-header .title {
+  font-size: 22px;
+  display: inline-block;
+  color: #fff;
+  padding: 1px 60px 0px 20px;
+  background: url("an.png") top left no-repeat;
+}
+.place-summary .guide-wrapper .info {
+  margin-bottom: 50px;
+}
+.place-summary .guide-wrapper .info-container {
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.place-summary .guide-wrapper .info-container ul {
+  margin: 0;
+  padding: 0;
+}
+.place-summary .guide-wrapper .info-container .info-item li {
+  list-style: none;
+  margin-top: 30px;
+}
+.place-summary .guide-wrapper .info-container .info-item .item-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.place-summary .guide-wrapper .info-container .item-container {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+.left-menu.fixed {
+  position: fixed;
+  right: 50%;
+  margin-right: 595px;
+  left: auto;
+}
+.left-menu {
+  left: -110px;
+  top: 100px;
+  font-family: "Microsoft YaHei", simsun;
+  position: absolute;
+  z-index: 999;
+  width: 120px;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  line-height: 16px;
+}
+.left-menu .mainMenu {
+  cursor: pointer;
+  background: url(//gtms02.alicdn.com/tps/i2/TB1wssDHXXXXXaCXFXXNryW2VXX-70-300.png) no-repeat 90px 0px;
+  font-size: 18px;
+  color: #050102;
+  height: 40px;
+  line-height: 40px;
+}
+.left-menu .mainMenu.selected {
+  background: url(//gtms02.alicdn.com/tps/i2/TB1wssDHXXXXXaCXFXXNryW2VXX-70-300.png) no-repeat 90px -53px;
+}
+.left-menu .mainMenu:hover {
+  text-decoration: underline;
+}
+.left-menu .subMenu {
+  cursor: pointer;
+  background: url(//gtms02.alicdn.com/tps/i2/TB1wssDHXXXXXaCXFXXNryW2VXX-70-300.png) no-repeat 90px -106px;
+  color: #050102;
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+}
+.left-menu .subMenu.selected {
+  background: url(//gtms02.alicdn.com/tps/i2/TB1wssDHXXXXXaCXFXXNryW2VXX-70-300.png) no-repeat 90px -62px;
+}
+.left-menu .subMenu:hover {
+  text-decoration: underline;
+}
+.left-menu .selected {
+  color: #1ba0f7;
+}
+/*!YUI-Compressor */
+.hotplacelink {
+  margin-bottom: 10px;
+  font-family: "Microsoft YaHei", "\9ed1\4f53", "tahoma", "arial", "\5b8b\4f53";
+  width: 1190px;
+  margin: 0px auto;
+}
+.hotplacelink .sub-title {
+  color: #59738c;
+  font-size: 12px;
+}
+.hotplacelink .city-item {
+  width: 88px;
+  height: 28px;
+  border: 1px solid #cdd3dd;
+  color: #59738c;
+  font-size: 12px;
+  text-align: center;
+  line-height: 28px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+.hotplacelink .city-item a {
+  display: block;
+  text-decoration: none;
+  color: #59738c;
+}
+.hotplacelink .city-item:hover {
+  color: white;
+  background-color: #1ba0f7;
+}
+.hotplacelink .list-container {
+  overflow: hidden;
+  margin-top: 23px;
+}
+.hotplacelink .poi-link-title {
+  font-size: 22px ;
+  color: #29a3f5;
+  height: 40px;
+  background: url(//gtms01.alicdn.com/tps/i1/TB1LprYIXXXXXbQXpXXueedJXXX-790-5.png) bottom repeat-x;
+  margin-bottom: 16px;
+}
+.nav {
+  height: 30px;
+  line-height: 30px;
+}
+.nav span {
+  color: #010101;
+}
+.nav a {
+  color: #328dc9;
+  font-size: 12px;
+}
+.poi-baokuan .baokuan-main-title {
+  font-size: 22px;
+  color: #29a3f5;
+  height: 44px;
+  background: url(//gtms01.alicdn.com/tps/i1/TB1LprYIXXXXXbQXpXXueedJXXX-790-5.png) bottom no-repeat;
+  margin-bottom: 18px;
+}
+.poi-baokuan .baokuan-item {
+  display: block;
+  position: relative;
+  width: 290px;
+  margin-bottom: 15px;
+}
+.poi-baokuan .baokuan-item:hover {
+  text-decoration: none;
+  color: #333;
+}
+.poi-baokuan .baokuan-item:hover .baokuan-text-container {
+  border-color: #3ea5ea;
+  line-height: 0px;
+}
+.poi-baokuan .baokuan-img-container {
+  height: 220px;
+  width: 100%;
+  position: relative;
+}
+.poi-baokuan .baokuan-img-text {
+  font-size: 16px;
+  position: absolute;
+  bottom: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 256px;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}
+.poi-baokuan .baokuan-img-wrapper {
+  height: 220px;
+  line-height: 0px;
+  overflow: hidden;
+}
+.poi-baokuan .baokuan-img-tip {
+  font-size: 16px;
+  color: white;
+}
+.poi-baokuan .baokuan-tip {
+  color: white;
+  font-size: 24px;
+  font-family: tahoma;
+  position: absolute;
+  right: -4px;
+  bottom: 39px;
+  font-style: normal;
+  height: 36px;
+  width: 100px;
+  text-align: center;
+  line-height: 36px;
+  padding-left: 17px;
+  background: url(//gtms04.alicdn.com/tps/i4/TB1oVj6IXXXXXXLXFXXM67__VXX-117-36.png) no-repeat;
+}
+.poi-baokuan .baokuan-tip .yen {
+  font-style: normal;
+  font-size: 24px;
+  font-family: arial;
+}
+.poi-baokuan .baokuan-suggest-list {
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.poi-baokuan .baokuan-suggest-list .suggest-item {
+  background: url(//gtms04.alicdn.com/tps/i4/TB1YorSIXXXXXaaXVXXVd_q4FXX-73-111.png) no-repeat 0px 8px;
+  padding-left: 14px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.poi-baokuan .normal-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 125px;
+  background: url(//img.alicdn.com/tps/TB1IspiIpXXXXXYXXXXXXXXXXXX.png) repeat-x;
+}
+.poi-baokuan .baokuan-text-container {
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+}
+.hotplacelink .title_pic {
+  height: 38px;
+  background: url(//gtms02.alicdn.com/tps/i2/TB1_ES7HVXXXXXtXXXXa4196pXX-1190-38.png) no-repeat;
+}

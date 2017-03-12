@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>杭州西湖</title>
+    <link rel="stylesheet" href="css/summary.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <base target="_blank">
+    <link href="css/bootstrap.css" rel='stylesheet'  />
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.useso.com/css?family=Oswald:400,300,700' rel='stylesheet' >
+    <link href='http://fonts.useso.com/css?family=Niconne' rel='stylesheet' >
+    <script  src="js/move-top.js"></script>
+    <script  src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="about-header-banner">
+    <div class="container">
+        <div class="home">
+            <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <span class="menu"><img src="images/nav.png" alt=""/></span>
+        <div class="top-menu">
+            <ul>
+                <nav class="cl-effect-13">
+                    <iframe allowtransparency="true" frameborder="0" width="565" height="98" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=565&h=98&align=center"></iframe>
+                    </nav>
+            </ul>
+        </div>
+        <script>
+            $( "span.menu" ).click(function() {
+                $( ".top-menu ul" ).slideToggle( 300, function() {
+                });
+            });
+        </script>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="banner-info text-center">
+        <h1><a href="index.html">驴游网</a></h1>
+    </div>
+</div>
+<div class="body">
+<div class="focus">
+    <div class="focusbox">
+        <div class="focusimg">
+            <ul class="fimglist clearfix">
+                <li><a href="images/hd1_1.jpg"><img src="images/hd1_1.jpg"></a></li>
+                <li><a href="images/hd1_2.jpg"><img src="images/hd1_2.jpg" ></a></li>
+                <li><a href="images/hd1_3.jpg"><img src="images/hd1_3.jpg" ></a></li>
+                <li><a href="images/hd1_4.jpg"><img src="images/hd1_4.jpg"></a></li>
+                <li><a href="images/hd1_5.jpg"><img src="images/hd1_5.jpg"></a></li>
+                </ul>
+        </div>
+        <div class="focustool">
+            <ul class="ftoollist clearfix"><!--通过控制该ul的left值来实现列表的左右移动，增量为931px-->
+                <li class="on"><a href="images/hx1_1.jpg"><img src="images/hx1_1.jpg"></a></li>
+                <li><a href="images/hx1_2.jpg"><img src="images/hx1_2.jpg"></a></li>
+                <li><a href="images/hx1_3.jpg"><img src="images/hx1_3.jpg"></a></li>
+                <li><a href="images/hx1_4.jpg"><img src="images/hx1_4.jpg"></a></li>
+                <li><a href="images/hx1_5.jpg"><img src="images/hx1_5.jpg"></a></li>
+            </ul>
+        </div>
+        <a href="javascript://" class="btn_pre" target="_self" style="display:none">上一页</a>
+        <a href="javascript://" class="btn_next" target="_self" style="display:none">下一页</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function($){
+        $(".guidelist li").hover(
+                function () {
+                    $(this).attr("class", "mouseon");
+                },
+                function () {
+                    $(this).attr("class", "mouseout");
+                }
+        );
+        $(".ftoollist li").mouseover(function(){
+            $(this).siblings().removeClass("on");
+            $(this).addClass("on");
+            var preNumber=$(this).prevAll().size();
+            $(".fimglist li").removeClass("onpre");
+            $(".fimglist li:nth-child("+preNumber+")").addClass("onpre");
+            var margin = 990;
+            margin = margin *preNumber;
+            margin = margin * -1;
+            $(".fimglist").stop().animate({marginLeft: margin + "px"}, {duration: 500});
+        });
+    });
+</script>
+<div class="body-r">
+    <h2 style="color: #c9302c" >注意查看当地天气变化，做好出行安排。</h2>
+    <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+    </div>
+<div class="place-summary clearfix">
+<div class="nav clearfix" data-spm="8">
+</div>
+<div class="summary-left guide-wrapper">
+    <div class="header"><h1 class="big-title">西湖旅游指南</h1></div>
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">概述</span></div>
+        <div class="info-container">
+
+            西湖是杭州最著名的景点，推荐租辆自行车骑行。西湖的荷花很漂亮，泛舟湖面也是不错的选择。在这里能够看到绚丽的日落和漂亮的音乐喷泉。不推荐节假日的时候去，人太多。
+            <br>
+            <br>西湖,现今《世界遗产名录》中少数几个、中国唯一一处湖泊类文化遗产。 杭州西湖位于浙江省杭州市的西南方，它以其秀丽的湖光山色和众多的名胜古迹而成为闻名中外的旅游胜地并被世人赋予“人间天堂”的美誉。 宋代大文豪苏东坡曾写道：“天下西湖三十六，就中最好是杭州”。西湖拥有三面云山，一水抱城的自然风光，以“欲把西湖比西子，淡妆浓抹总相宜”的山水秀色，点缀杭州. 西湖旧称武林水、钱塘湖、西子湖，宋代始称西湖。西湖位于杭州城西，三面环山，东面濒临市区，是一个湖泊型的国家级风景名胜区。西湖有十景（南宋）：苏堤春晓、曲院风荷、平湖秋月、断桥残雪、花港观鱼、柳浪闻莺、三潭印月、双峰插云、雷峰夕照、南屏晚钟。西湖新十景：云栖竹径、满陇桂雨、虎跑梦泉、龙井问茶、九溪烟树、吴山天风、阮墩环碧、黄龙吐翠、玉皇飞云、宝石流霞。湖中有三岛：三潭印月，湖心亭，阮公墩。云山秀水是西湖的底色；山水与人文交融是西湖风景名胜区的格调。西湖之妙，在于湖裹山中，山屏湖外，湖和山相得益彰。西湖的美，在于晴中见潋滟，雨中显空蒙，无论雨雪晴阴都能成景。湖区以苏堤和白堤的优美风光见称。苏堤和白堤横贯于西湖，把西湖分隔为西里湖，小南湖，岳湖，外湖和里湖五部分。每当晨光初启，宿雾如烟，湖面腾起薄雾时，便出现"六桥烟柳"的优美风景，是钱塘十景之一。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">门票</span></div>
+        <div class="info-container">
+
+            开放时间：全天
+            <br>自然景观，免费游玩。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">交通</span></div>
+        <div class="info-container">
+
+            交通较便利,可选择地铁,公交,出租等多种方式.附近地铁站有凤起路站和龙翔桥站 (地铁1号线);有多条公交线路,可以选择在钱塘门外,六公园,少年宫,小车桥,断桥站下.打车较便利。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">特产</span></div>
+        <div class="info-container">
+
+            <h4><b>杭州丝绸</b></h4>
+            杭州有“丝绸之府”之称。距今四千七百年的良渚出土丝织物就已揭示了杭州丝绸的历史之久，唐代大诗人白居易“丝袖织绫夸柿蒂，青旗沽酒趁梨花”的诗句又道出了当时杭州丝绸的水准之高，旧时清河坊鳞次栉比的绸庄更见证了丝绸经济的繁荣。如今杭州常年生产绸、缎、绵、纺、绉、绫、罗等十四个大类，二百多个品种，二千余个花色，图景新颖，富丽华贵，花卉层次分明，人物栩栩如生，许多产品荣获国家部优或省级优质产品奖，远销世界上100多个国家和地区。杭州丝绸首推都锦生，都锦生丝绸厂创立于1922年，曾是我国最大的丝绸工艺品生产的出口企业，主要生产风景画、台毯、靠垫、窗帘及织锦衣料，产品富丽堂皇，雍容华贵，被国际友人誉为“东方艺术之花”。 历史悠久，品种繁多，质量上乘，久负盛名。都锦生织锦色彩瑰丽，织工精细，多次获得国际金奖。
+            <h4><b>龙井茶</b></h4>
+            色泽浅绿，香郁如兰，味醇甘甜，形似雀舌，位居中国名茶之首。全市各大百货商店或遍布全市的龙井茶叶专卖店里有卖，货真价实。
+            <h4><b>西湖莼菜</b></h4>
+            莼菜是多年生水生植物。叶片呈椭圆形，色暗绿，嫩茎和叶背部都有胶状透明物质。食用部分就是沉没在水中尚未展开的新叶。含有丰富的蛋白质、维生素和微量铁元素，营养价值很高。由莼菜做成的汤或羹格外鲜美，被列为杭州名菜，西湖莼菜叶片呈椭圆形，色暗绿，嫩茎和叶背部都有胶状透明物质。在历史上，以"三潭印月"莼菜最为著名。新鲜莼菜可用白糖拌食；营养丰富、鲜嫩清香的"西湖莼菜汤"是杭州名菜之一。
+            <h4><b>里叶白莲</b></h4>
+            里叶白莲：里叶位于著名的国家级风景旅游区──“大慈岩”和诸葛“八卦村”一带， 种植白莲已有近千年历史。优美的自然环境和丰富优质的泉水灌溉，使“里叶白莲”具有 独特的品质和风味。其白莲去皮通心，粒大而圆泣，色白如凝脂、炖之易酥而不散、汤色清而食之香，实为莲中珍品。早在南宋“里叶白莲”就被钦定为皇家贡品。1998年，“里叶白莲”被评为浙江省优质农产品金奖。今年又引进新品种“太空白莲”，更是莲中极品。
+
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info-header"><span class="title" data-menu="main">小贴士</span></div>
+        <div class="info-container">
+
+            <h4><b>最佳游玩时间</b></h4>
+            3-5月、9-11月。3-5月是最适合漫步苏堤踏青赏花；
+            <br>9-11月秋高气爽，满陇桂雨的桂花飘香十里。
+            <br>不推荐盛夏季节，超过30℃的高温炙烤下，会减少游玩的兴致。
+            <h4><b>租船锦囊</b></h4>
+            西湖的游船有各种大小，价钱都不一样，一条船120元或160元，坐10人左右，最好是找些人拼船。游船是走来回的，出发点就是终点，一定要之前问清楚。
+            <h4><b>游湖注意事项</b></h4>
+            天气变化快，小心感冒
+            <br>在西湖边别搭理野导游
+            <br>设计好线路，别把老人累着了
+            <br>带够钱，杭州消费水平比较高，景区附近就更高了
+            <br>进茶室喝茶问清楚价格，小心被宰
+            <h4><b>火车注意事项</b></h4>
+            【乘坐】从上海到杭州的火车很方便，上海南站基本上只要不是黄金周，去就可以买到票子，最便宜的票子是慢车硬座25元。选到杭州城站的火车，出来就是西湖大道，而杭州东站在比较远的地方。
+            <br>【购票】周末往杭州的上海游客较多，最好事先买好来回票，否则就只能站到底了。
+            <br>【城站交通】城站下面有很多公车，几乎到杭州所有地方。
+            城站出来要打车的话，在出站检票口就可以看到通往taxi排队处的牌子，在火车站只有这地方可以坐上出租车，其他地方司机都拒载的。
+
+
+        </div>
+    </div>
+    </div>
+</div>
+<div class="get-in-touch" id="foot">
+    <div class="container">
+        <div class="pp">
+            <h3>关于我们</h3>
+            <p >驴游网 是由B-xyz团队精心制作的专注国内旅游攻略的网站，内容包括休闲度假、红色记忆、极限挑战、名胜古迹四大类景点分类，方便用户快速的查找到自己心仪的景区，另外本站设有旅游小课堂以及旅游资讯，方便了用户的需求。使用过程中，若有任何意见或建议可以联系我们。</p>
+            <p class="phone"><span>Phone</span> :0635--1234567</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="copyright text-center">
+            <p>--B-xyz团队出品--</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
